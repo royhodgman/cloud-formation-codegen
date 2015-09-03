@@ -42,7 +42,7 @@ class CfDocsScraperPipeline(object):
         if( not os.path.exists ( self.ruby_dir_name ) ):
             os.makedirs( self.ruby_dir_name )
             
-        ruby_file_name = "{}/{}.json".format( self.ruby_dir_name,
+        ruby_file_name = "{}/{}.rb".format( self.ruby_dir_name,
                                               item[ "resource_name" ] )
 
         with open( ruby_file_name, "wb" ) as ruby_file:
