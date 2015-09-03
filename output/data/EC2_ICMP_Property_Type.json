@@ -1,0 +1,1 @@
+{"resource_name": "EC2_ICMP_Property_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-icmp.html", "topic_title": "EC2 ICMP Property Type", "variables": [], "mixins": [], "ruby_class_name": "ICMPPropertyType", "ruby_class_name_underscore": "icmp_property_type", "ruby_comment_name": "EC2_ICMP_Property_Type", "list_variables": []}
