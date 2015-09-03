@@ -1,1 +1,61 @@
-{"resource_name": "AWS_CloudFormation_Authentication", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-authentication.html", "topic_title": "AWS::CloudFormation::Authentication", "variables": [{"required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".", "type": "String", "name": "accessKeyId", "name_underscore": "access_key_id"}, {"required": "Conditional Can be specified only if the type property is set to\n                     \"basic\".", "type": "String", "name": "password", "name_underscore": "password"}, {"required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".", "type": "String", "name": "secretKey", "name_underscore": "secret_key"}, {"required": "Yes", "type": "String Valid values are \"basic\" or \"S3\"", "name": "type", "name_underscore": "type"}, {"required": "Conditional Can be specified only if the type property is set to\n                     \"basic\".", "type": "String", "name": "username", "name_underscore": "username"}, {"required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".", "type": "String.", "name": "roleName", "name_underscore": "role_name"}], "mixins": [], "ruby_class_name": "CloudFormationAuthentication", "ruby_class_name_underscore": "cloudformation_authentication", "ruby_comment_name": "AWS_CloudFormation_Authentication", "list_variables": [{"required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".", "type": "List of strings", "name": "buckets", "name_underscore": "buckets"}, {"required": "Conditional Can be specified only if the type\n                  property is set to \"basic\".", "type": "List of strings", "name": "uris", "name_underscore": "uris"}]}
+{
+    "list_variables": [
+        {
+            "name": "buckets",
+            "name_underscore": "buckets",
+            "required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".",
+            "type": "List of strings"
+        },
+        {
+            "name": "uris",
+            "name_underscore": "uris",
+            "required": "Conditional Can be specified only if the type\n                  property is set to \"basic\".",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_CloudFormation_Authentication",
+    "ruby_class_name": "CloudFormationAuthentication",
+    "ruby_class_name_underscore": "cloudformation_authentication",
+    "ruby_comment_name": "AWS_CloudFormation_Authentication",
+    "topic_title": "AWS::CloudFormation::Authentication",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-authentication.html",
+    "variables": [
+        {
+            "name": "accessKeyId",
+            "name_underscore": "access_key_id",
+            "required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".",
+            "type": "String"
+        },
+        {
+            "name": "password",
+            "name_underscore": "password",
+            "required": "Conditional Can be specified only if the type property is set to\n                     \"basic\".",
+            "type": "String"
+        },
+        {
+            "name": "secretKey",
+            "name_underscore": "secret_key",
+            "required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".",
+            "type": "String"
+        },
+        {
+            "name": "type",
+            "name_underscore": "type",
+            "required": "Yes",
+            "type": "String Valid values are \"basic\" or \"S3\""
+        },
+        {
+            "name": "username",
+            "name_underscore": "username",
+            "required": "Conditional Can be specified only if the type property is set to\n                     \"basic\".",
+            "type": "String"
+        },
+        {
+            "name": "roleName",
+            "name_underscore": "role_name",
+            "required": "Conditional Can be specified only if the type\n                  property is set to \"S3\".",
+            "type": "String."
+        }
+    ]
+}

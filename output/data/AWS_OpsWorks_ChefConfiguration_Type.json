@@ -1,1 +1,24 @@
-{"resource_name": "AWS_OpsWorks_ChefConfiguration_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-stack-chefconfiguration.html", "topic_title": "AWS OpsWorks ChefConfiguration\n      Type", "variables": [{"required": "No", "type": "String", "name": "BerkshelfVersion", "name_underscore": "berkshelf_version"}, {"required": "No", "type": "Boolean", "name": "ManageBerkshelf", "name_underscore": "manage_berkshelf"}], "mixins": [], "ruby_class_name": "OpsWorksChefConfigurationType", "ruby_class_name_underscore": "opsworks_chefconfiguration_type", "ruby_comment_name": "AWS_OpsWorks_ChefConfiguration_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_OpsWorks_ChefConfiguration_Type",
+    "ruby_class_name": "OpsWorksChefConfigurationType",
+    "ruby_class_name_underscore": "opsworks_chefconfiguration_type",
+    "ruby_comment_name": "AWS_OpsWorks_ChefConfiguration_Type",
+    "topic_title": "AWS OpsWorks ChefConfiguration\n      Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-stack-chefconfiguration.html",
+    "variables": [
+        {
+            "name": "BerkshelfVersion",
+            "name_underscore": "berkshelf_version",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "ManageBerkshelf",
+            "name_underscore": "manage_berkshelf",
+            "required": "No",
+            "type": "Boolean"
+        }
+    ]
+}

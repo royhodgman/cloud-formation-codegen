@@ -1,1 +1,60 @@
-{"resource_name": "Amazon_S3_Lifecycle_Rule", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-lifecycleconfig-rule.html", "topic_title": "Amazon S3 Lifecycle Rule", "variables": [{"required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.", "type": "String", "name": "ExpirationDate", "name_underscore": "expiration_date"}, {"required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.", "type": "Integer", "name": "ExpirationInDays", "name_underscore": "expiration_in_days"}, {"required": "No", "type": "String", "name": "Id", "name_underscore": "id"}, {"required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.", "type": "Integer", "name": "NoncurrentVersionExpirationInDays", "name_underscore": "noncurrent_version_expiration_in_days"}, {"required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.", "type": "Amazon S3\n      Lifecycle Rule NoncurrentVersionTransition", "name": "NoncurrentVersionTransition", "name_underscore": "noncurrent_version_transition"}, {"required": "No", "type": "String", "name": "Prefix", "name_underscore": "prefix"}, {"required": "Yes", "type": "String", "name": "Status", "name_underscore": "status"}, {"required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.", "type": "Amazon S3 Lifecycle Rule\n      Transition", "name": "Transition", "name_underscore": "transition"}], "mixins": [], "ruby_class_name": "S3LifecycleRule", "ruby_class_name_underscore": "s3_lifecycle_rule", "ruby_comment_name": "Amazon_S3_Lifecycle_Rule", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_S3_Lifecycle_Rule",
+    "ruby_class_name": "S3LifecycleRule",
+    "ruby_class_name_underscore": "s3_lifecycle_rule",
+    "ruby_comment_name": "Amazon_S3_Lifecycle_Rule",
+    "topic_title": "Amazon S3 Lifecycle Rule",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-lifecycleconfig-rule.html",
+    "variables": [
+        {
+            "name": "ExpirationDate",
+            "name_underscore": "expiration_date",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.",
+            "type": "String"
+        },
+        {
+            "name": "ExpirationInDays",
+            "name_underscore": "expiration_in_days",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.",
+            "type": "Integer"
+        },
+        {
+            "name": "Id",
+            "name_underscore": "id",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "NoncurrentVersionExpirationInDays",
+            "name_underscore": "noncurrent_version_expiration_in_days",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.",
+            "type": "Integer"
+        },
+        {
+            "name": "NoncurrentVersionTransition",
+            "name_underscore": "noncurrent_version_transition",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.",
+            "type": "Amazon S3\n      Lifecycle Rule NoncurrentVersionTransition"
+        },
+        {
+            "name": "Prefix",
+            "name_underscore": "prefix",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Status",
+            "name_underscore": "status",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Transition",
+            "name_underscore": "transition",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: ExpirationDate, ExpirationInDays,\n                     NoncurrentVersionExpirationInDays,\n                     NoncurrentVersionTransition, or Transition.",
+            "type": "Amazon S3 Lifecycle Rule\n      Transition"
+        }
+    ]
+}

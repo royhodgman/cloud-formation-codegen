@@ -1,1 +1,18 @@
-{"resource_name": "AWS_ElastiCache_SecurityGroup", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-security-group.html", "topic_title": "AWS::ElastiCache::SecurityGroup", "variables": [{"required": "No", "type": "String", "name": "Description", "name_underscore": "description"}], "mixins": [], "ruby_class_name": "ElastiCacheSecurityGroup", "ruby_class_name_underscore": "elasticache_securitygroup", "ruby_comment_name": "AWS_ElastiCache_SecurityGroup", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_ElastiCache_SecurityGroup",
+    "ruby_class_name": "ElastiCacheSecurityGroup",
+    "ruby_class_name_underscore": "elasticache_securitygroup",
+    "ruby_comment_name": "AWS_ElastiCache_SecurityGroup",
+    "topic_title": "AWS::ElastiCache::SecurityGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-security-group.html",
+    "variables": [
+        {
+            "name": "Description",
+            "name_underscore": "description",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

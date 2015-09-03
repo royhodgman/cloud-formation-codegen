@@ -1,1 +1,30 @@
-{"resource_name": "CloudFront_DistributionConfig_Origin_CustomOrigin", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-customorigin.html", "topic_title": "CloudFront DistributionConfig Origin\n      CustomOrigin", "variables": [{"required": "No", "type": "String", "name": "HTTPPort", "name_underscore": "http_port"}, {"required": "No", "type": "String", "name": "HTTPSPort", "name_underscore": "https_port"}, {"required": "Yes", "type": "String", "name": "OriginProtocolPolicy", "name_underscore": "origin_protocol_policy"}], "mixins": [], "ruby_class_name": "DistributionConfigOriginCustomOrigin", "ruby_class_name_underscore": "distributionconfig_origin_customorigin", "ruby_comment_name": "CloudFront_DistributionConfig_Origin_CustomOrigin", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudFront_DistributionConfig_Origin_CustomOrigin",
+    "ruby_class_name": "DistributionConfigOriginCustomOrigin",
+    "ruby_class_name_underscore": "distributionconfig_origin_customorigin",
+    "ruby_comment_name": "CloudFront_DistributionConfig_Origin_CustomOrigin",
+    "topic_title": "CloudFront DistributionConfig Origin\n      CustomOrigin",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-customorigin.html",
+    "variables": [
+        {
+            "name": "HTTPPort",
+            "name_underscore": "http_port",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "HTTPSPort",
+            "name_underscore": "https_port",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "OriginProtocolPolicy",
+            "name_underscore": "origin_protocol_policy",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

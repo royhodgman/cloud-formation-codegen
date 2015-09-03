@@ -1,1 +1,30 @@
-{"resource_name": "AWS_Data_Pipeline_PipelineObjects", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-datapipeline-pipeline-pipelineobjects.html", "topic_title": "AWS Data Pipeline\n      PipelineObjects", "variables": [{"required": "Yes", "type": "AWS Data Pipeline\n      Data Pipeline Object Fields", "name": "Fields", "name_underscore": "fields"}, {"required": "Yes", "type": "String", "name": "Id", "name_underscore": "id"}, {"required": "Yes", "type": "String", "name": "Name", "name_underscore": "name"}], "mixins": [], "ruby_class_name": "DataPipelinePipelineObjects", "ruby_class_name_underscore": "data_pipeline_pipelineobjects", "ruby_comment_name": "AWS_Data_Pipeline_PipelineObjects", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_Data_Pipeline_PipelineObjects",
+    "ruby_class_name": "DataPipelinePipelineObjects",
+    "ruby_class_name_underscore": "data_pipeline_pipelineobjects",
+    "ruby_comment_name": "AWS_Data_Pipeline_PipelineObjects",
+    "topic_title": "AWS Data Pipeline\n      PipelineObjects",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-datapipeline-pipeline-pipelineobjects.html",
+    "variables": [
+        {
+            "name": "Fields",
+            "name_underscore": "fields",
+            "required": "Yes",
+            "type": "AWS Data Pipeline\n      Data Pipeline Object Fields"
+        },
+        {
+            "name": "Id",
+            "name_underscore": "id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Name",
+            "name_underscore": "name",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

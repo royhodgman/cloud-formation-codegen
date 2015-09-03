@@ -1,1 +1,18 @@
-{"resource_name": "Amazon_S3_Lifecycle_Configuration", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-lifecycleconfig.html", "topic_title": "Amazon S3 Lifecycle Configuration", "variables": [{"required": "Yes", "type": "Amazon S3 Lifecycle Rule", "name": "Rules", "name_underscore": "rules"}], "mixins": [], "ruby_class_name": "S3LifecycleConfiguration", "ruby_class_name_underscore": "s3_lifecycle_configuration", "ruby_comment_name": "Amazon_S3_Lifecycle_Configuration", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_S3_Lifecycle_Configuration",
+    "ruby_class_name": "S3LifecycleConfiguration",
+    "ruby_class_name_underscore": "s3_lifecycle_configuration",
+    "ruby_comment_name": "Amazon_S3_Lifecycle_Configuration",
+    "topic_title": "Amazon S3 Lifecycle Configuration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-lifecycleconfig.html",
+    "variables": [
+        {
+            "name": "Rules",
+            "name_underscore": "rules",
+            "required": "Yes",
+            "type": "Amazon S3 Lifecycle Rule"
+        }
+    ]
+}

@@ -1,1 +1,36 @@
-{"resource_name": "CloudFront_DistributionConfig_CustomErrorResponse", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig-customerrorresponse.html", "topic_title": "CloudFront\n      DistributionConfig CustomErrorResponse", "variables": [{"required": "No", "type": "Integer", "name": "ErrorCachingMinTTL", "name_underscore": "error_caching_min_ttl"}, {"required": "Yes", "type": "Integer", "name": "ErrorCode", "name_underscore": "error_code"}, {"required": "Conditional. Required if you specified the\n                     ResponsePagePath property.", "type": "Integer", "name": "ResponseCode", "name_underscore": "response_code"}, {"required": "Conditional. Required if you specified the ResponseCode\n                  property.", "type": "String", "name": "ResponsePagePath", "name_underscore": "response_page_path"}], "mixins": [], "ruby_class_name": "DistributionConfigCustomErrorResponse", "ruby_class_name_underscore": "distributionconfig_customerrorresponse", "ruby_comment_name": "CloudFront_DistributionConfig_CustomErrorResponse", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudFront_DistributionConfig_CustomErrorResponse",
+    "ruby_class_name": "DistributionConfigCustomErrorResponse",
+    "ruby_class_name_underscore": "distributionconfig_customerrorresponse",
+    "ruby_comment_name": "CloudFront_DistributionConfig_CustomErrorResponse",
+    "topic_title": "CloudFront\n      DistributionConfig CustomErrorResponse",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig-customerrorresponse.html",
+    "variables": [
+        {
+            "name": "ErrorCachingMinTTL",
+            "name_underscore": "error_caching_min_ttl",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "ErrorCode",
+            "name_underscore": "error_code",
+            "required": "Yes",
+            "type": "Integer"
+        },
+        {
+            "name": "ResponseCode",
+            "name_underscore": "response_code",
+            "required": "Conditional. Required if you specified the\n                     ResponsePagePath property.",
+            "type": "Integer"
+        },
+        {
+            "name": "ResponsePagePath",
+            "name_underscore": "response_page_path",
+            "required": "Conditional. Required if you specified the ResponseCode\n                  property.",
+            "type": "String"
+        }
+    ]
+}

@@ -1,1 +1,18 @@
-{"resource_name": "CloudFront_DistributionConfig_Origin_S3Origin", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-s3origin.html", "topic_title": "CloudFront DistributionConfig Origin\n      S3Origin", "variables": [{"required": "No", "type": "String", "name": "OriginAccessIdentity", "name_underscore": "origin_access_identity"}], "mixins": [], "ruby_class_name": "DistributionConfigOriginS3Origin", "ruby_class_name_underscore": "distributionconfig_origin_s3origin", "ruby_comment_name": "CloudFront_DistributionConfig_Origin_S3Origin", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudFront_DistributionConfig_Origin_S3Origin",
+    "ruby_class_name": "DistributionConfigOriginS3Origin",
+    "ruby_class_name_underscore": "distributionconfig_origin_s3origin",
+    "ruby_comment_name": "CloudFront_DistributionConfig_Origin_S3Origin",
+    "topic_title": "CloudFront DistributionConfig Origin\n      S3Origin",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-s3origin.html",
+    "variables": [
+        {
+            "name": "OriginAccessIdentity",
+            "name_underscore": "origin_access_identity",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

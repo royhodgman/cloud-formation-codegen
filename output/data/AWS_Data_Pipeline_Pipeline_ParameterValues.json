@@ -1,1 +1,24 @@
-{"resource_name": "AWS_Data_Pipeline_Pipeline_ParameterValues", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-datapipeline-pipeline-parametervalues.html", "topic_title": "AWS Data Pipeline Pipeline\n      ParameterValues", "variables": [{"required": "Yes", "type": "String", "name": "Id", "name_underscore": "id"}, {"required": "Yes", "type": "String", "name": "StringValue", "name_underscore": "string_value"}], "mixins": [], "ruby_class_name": "DataPipelinePipelineParameterValues", "ruby_class_name_underscore": "data_pipeline_pipeline_parametervalues", "ruby_comment_name": "AWS_Data_Pipeline_Pipeline_ParameterValues", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_Data_Pipeline_Pipeline_ParameterValues",
+    "ruby_class_name": "DataPipelinePipelineParameterValues",
+    "ruby_class_name_underscore": "data_pipeline_pipeline_parametervalues",
+    "ruby_comment_name": "AWS_Data_Pipeline_Pipeline_ParameterValues",
+    "topic_title": "AWS Data Pipeline Pipeline\n      ParameterValues",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-datapipeline-pipeline-parametervalues.html",
+    "variables": [
+        {
+            "name": "Id",
+            "name_underscore": "id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "StringValue",
+            "name_underscore": "string_value",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

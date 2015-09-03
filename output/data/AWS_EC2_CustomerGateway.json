@@ -1,1 +1,38 @@
-{"resource_name": "AWS_EC2_CustomerGateway", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customer-gateway.html", "topic_title": "AWS::EC2::CustomerGateway", "variables": [{"required": "Yes", "type": "Number BgpAsn is always an integer value.", "name": "BgpAsn", "name_underscore": "bgp_asn"}, {"required": "Yes", "type": "String", "name": "IpAddress", "name_underscore": "ip_address"}, {"required": "No", "type": "AWS CloudFormation Resource Tags.", "name": "Tags", "name_underscore": "tags"}, {"required": "Yes", "type": "String", "name": "Type", "name_underscore": "type"}], "mixins": ["Taggable"], "ruby_class_name": "EC2CustomerGateway", "ruby_class_name_underscore": "ec2_customergateway", "ruby_comment_name": "AWS_EC2_CustomerGateway", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [
+        "Taggable"
+    ],
+    "resource_name": "AWS_EC2_CustomerGateway",
+    "ruby_class_name": "EC2CustomerGateway",
+    "ruby_class_name_underscore": "ec2_customergateway",
+    "ruby_comment_name": "AWS_EC2_CustomerGateway",
+    "topic_title": "AWS::EC2::CustomerGateway",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customer-gateway.html",
+    "variables": [
+        {
+            "name": "BgpAsn",
+            "name_underscore": "bgp_asn",
+            "required": "Yes",
+            "type": "Number BgpAsn is always an integer value."
+        },
+        {
+            "name": "IpAddress",
+            "name_underscore": "ip_address",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Tags",
+            "name_underscore": "tags",
+            "required": "No",
+            "type": "AWS CloudFormation Resource Tags."
+        },
+        {
+            "name": "Type",
+            "name_underscore": "type",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

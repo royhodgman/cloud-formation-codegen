@@ -1,1 +1,11 @@
-{"resource_name": "AWS_ECS_Cluster", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html", "topic_title": "AWS::ECS::Cluster", "variables": [], "mixins": [], "ruby_class_name": "ECSCluster", "ruby_class_name_underscore": "ecs_cluster", "ruby_comment_name": "AWS_ECS_Cluster", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_ECS_Cluster",
+    "ruby_class_name": "ECSCluster",
+    "ruby_class_name_underscore": "ecs_cluster",
+    "ruby_comment_name": "AWS_ECS_Cluster",
+    "topic_title": "AWS::ECS::Cluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html",
+    "variables": []
+}

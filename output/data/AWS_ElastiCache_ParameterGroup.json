@@ -1,1 +1,30 @@
-{"resource_name": "AWS_ElastiCache_ParameterGroup", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html", "topic_title": "AWS::ElastiCache::ParameterGroup", "variables": [{"required": "Yes", "type": "String", "name": "CacheParameterGroupFamily", "name_underscore": "cache_parameter_group_family"}, {"required": "Yes", "type": "String", "name": "Description", "name_underscore": "description"}, {"required": "Yes", "type": "JSON object", "name": "Properties", "name_underscore": "properties"}], "mixins": [], "ruby_class_name": "ElastiCacheParameterGroup", "ruby_class_name_underscore": "elasticache_parametergroup", "ruby_comment_name": "AWS_ElastiCache_ParameterGroup", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_ElastiCache_ParameterGroup",
+    "ruby_class_name": "ElastiCacheParameterGroup",
+    "ruby_class_name_underscore": "elasticache_parametergroup",
+    "ruby_comment_name": "AWS_ElastiCache_ParameterGroup",
+    "topic_title": "AWS::ElastiCache::ParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html",
+    "variables": [
+        {
+            "name": "CacheParameterGroupFamily",
+            "name_underscore": "cache_parameter_group_family",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Description",
+            "name_underscore": "description",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Properties",
+            "name_underscore": "properties",
+            "required": "Yes",
+            "type": "JSON object"
+        }
+    ]
+}

@@ -1,1 +1,24 @@
-{"resource_name": "Amazon_SQS_RedrivePolicy", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues-redrivepolicy.html", "topic_title": "Amazon SQS RedrivePolicy", "variables": [{"required": "No", "type": "String", "name": "deadLetterTargetArn", "name_underscore": "dead_letter_target_arn"}, {"required": "No", "type": "Integer", "name": "maxReceiveCount", "name_underscore": "max_receive_count"}], "mixins": [], "ruby_class_name": "SQSRedrivePolicy", "ruby_class_name_underscore": "sqs_redrivepolicy", "ruby_comment_name": "Amazon_SQS_RedrivePolicy", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_SQS_RedrivePolicy",
+    "ruby_class_name": "SQSRedrivePolicy",
+    "ruby_class_name_underscore": "sqs_redrivepolicy",
+    "ruby_comment_name": "Amazon_SQS_RedrivePolicy",
+    "topic_title": "Amazon SQS RedrivePolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues-redrivepolicy.html",
+    "variables": [
+        {
+            "name": "deadLetterTargetArn",
+            "name_underscore": "dead_letter_target_arn",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "maxReceiveCount",
+            "name_underscore": "max_receive_count",
+            "required": "No",
+            "type": "Integer"
+        }
+    ]
+}

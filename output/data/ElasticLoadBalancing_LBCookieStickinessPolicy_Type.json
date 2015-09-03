@@ -1,1 +1,24 @@
-{"resource_name": "ElasticLoadBalancing_LBCookieStickinessPolicy_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-LBCookieStickinessPolicy.html", "topic_title": "ElasticLoadBalancing LBCookieStickinessPolicy Type", "variables": [{"required": "No", "type": "String", "name": "CookieExpirationPeriod", "name_underscore": "cookie_expiration_period"}, {"required": "No", "type": "String", "name": "PolicyName", "name_underscore": "policy_name"}], "mixins": [], "ruby_class_name": "LBCookieStickinessPolicyType", "ruby_class_name_underscore": "lbcookiestickinesspolicy_type", "ruby_comment_name": "ElasticLoadBalancing_LBCookieStickinessPolicy_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "ElasticLoadBalancing_LBCookieStickinessPolicy_Type",
+    "ruby_class_name": "LBCookieStickinessPolicyType",
+    "ruby_class_name_underscore": "lbcookiestickinesspolicy_type",
+    "ruby_comment_name": "ElasticLoadBalancing_LBCookieStickinessPolicy_Type",
+    "topic_title": "ElasticLoadBalancing LBCookieStickinessPolicy Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-elb-LBCookieStickinessPolicy.html",
+    "variables": [
+        {
+            "name": "CookieExpirationPeriod",
+            "name_underscore": "cookie_expiration_period",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "PolicyName",
+            "name_underscore": "policy_name",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

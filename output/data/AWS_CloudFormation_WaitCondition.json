@@ -1,1 +1,36 @@
-{"resource_name": "AWS_CloudFormation_WaitCondition", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-waitcondition.html", "topic_title": "AWS::CloudFormation::WaitCondition", "variables": [{"required": "No", "type": "String", "name": "Count", "name_underscore": "count"}, {"required": "Yes", "type": "String", "name": "Handle", "name_underscore": "handle"}, {"required": "Yes", "type": "String", "name": "Timeout", "name_underscore": "timeout"}, {"required": "No", "type": "String", "name": "Data", "name_underscore": "data"}], "mixins": [], "ruby_class_name": "CloudFormationWaitCondition", "ruby_class_name_underscore": "cloudformation_waitcondition", "ruby_comment_name": "AWS_CloudFormation_WaitCondition", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_CloudFormation_WaitCondition",
+    "ruby_class_name": "CloudFormationWaitCondition",
+    "ruby_class_name_underscore": "cloudformation_waitcondition",
+    "ruby_comment_name": "AWS_CloudFormation_WaitCondition",
+    "topic_title": "AWS::CloudFormation::WaitCondition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-waitcondition.html",
+    "variables": [
+        {
+            "name": "Count",
+            "name_underscore": "count",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Handle",
+            "name_underscore": "handle",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Timeout",
+            "name_underscore": "timeout",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Data",
+            "name_underscore": "data",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

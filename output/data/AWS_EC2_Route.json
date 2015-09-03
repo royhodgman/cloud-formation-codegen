@@ -1,1 +1,48 @@
-{"resource_name": "AWS_EC2_Route", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html", "topic_title": "AWS::EC2::Route", "variables": [{"required": "Yes", "type": "String", "name": "DestinationCidrBlock", "name_underscore": "destination_cidr_block"}, {"required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.", "type": "String", "name": "GatewayId", "name_underscore": "gateway_id"}, {"required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.", "type": "String", "name": "InstanceId", "name_underscore": "instance_id"}, {"required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.", "type": "String", "name": "NetworkInterfaceId", "name_underscore": "network_interface_id"}, {"required": "Yes", "type": "String", "name": "RouteTableId", "name_underscore": "route_table_id"}, {"required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.", "type": "String", "name": "VpcPeeringConnectionId", "name_underscore": "vpc_peering_connection_id"}], "mixins": [], "ruby_class_name": "EC2Route", "ruby_class_name_underscore": "ec2_route", "ruby_comment_name": "AWS_EC2_Route", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_EC2_Route",
+    "ruby_class_name": "EC2Route",
+    "ruby_class_name_underscore": "ec2_route",
+    "ruby_comment_name": "AWS_EC2_Route",
+    "topic_title": "AWS::EC2::Route",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-route.html",
+    "variables": [
+        {
+            "name": "DestinationCidrBlock",
+            "name_underscore": "destination_cidr_block",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "GatewayId",
+            "name_underscore": "gateway_id",
+            "required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.",
+            "type": "String"
+        },
+        {
+            "name": "InstanceId",
+            "name_underscore": "instance_id",
+            "required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.",
+            "type": "String"
+        },
+        {
+            "name": "NetworkInterfaceId",
+            "name_underscore": "network_interface_id",
+            "required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.",
+            "type": "String"
+        },
+        {
+            "name": "RouteTableId",
+            "name_underscore": "route_table_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "VpcPeeringConnectionId",
+            "name_underscore": "vpc_peering_connection_id",
+            "required": "Conditional. You must specify only one of the\n                  following properties: GatewayId, InstanceId,\n                     NetworkInterfaceId, or VpcPeeringConnectionId.",
+            "type": "String"
+        }
+    ]
+}

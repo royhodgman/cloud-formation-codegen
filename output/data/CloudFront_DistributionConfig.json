@@ -1,1 +1,85 @@
-{"resource_name": "CloudFront_DistributionConfig", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig.html", "topic_title": "CloudFront DistributionConfig", "variables": [{"required": "No", "type": "String", "name": "Comment", "name_underscore": "comment"}, {"required": "Yes", "type": "DefaultCacheBehavior type", "name": "DefaultCacheBehavior", "name_underscore": "default_cache_behavior"}, {"required": "No", "type": "String", "name": "DefaultRootObject", "name_underscore": "default_root_object"}, {"required": "Yes", "type": "Boolean", "name": "Enabled", "name_underscore": "enabled"}, {"required": "No", "type": "Logging\n                  type", "name": "Logging", "name_underscore": "logging"}, {"required": "No", "type": "String", "name": "PriceClass", "name_underscore": "price_class"}, {"required": "No", "type": "CloudFront\n      DistributionConfiguration Restrictions", "name": "Restrictions", "name_underscore": "restrictions"}, {"required": "No", "type": "CloudFront\n      DistributionConfiguration ViewerCertificate", "name": "ViewerCertificate", "name_underscore": "viewer_certificate"}], "mixins": [], "ruby_class_name": "DistributionConfig", "ruby_class_name_underscore": "distributionconfig", "ruby_comment_name": "CloudFront_DistributionConfig", "list_variables": [{"required": "No", "type": "List of strings", "name": "Aliases", "name_underscore": "aliases"}, {"required": "No", "type": "List of CacheBehavior", "name": "CacheBehaviors", "name_underscore": "cache_behaviors"}, {"required": "No", "type": "List of CloudFront\n      DistributionConfig CustomErrorResponse", "name": "CustomErrorResponses", "name_underscore": "custom_error_responses"}, {"required": "Yes", "type": "List of Origins.", "name": "Origins", "name_underscore": "origins"}]}
+{
+    "list_variables": [
+        {
+            "name": "Aliases",
+            "name_underscore": "aliases",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "CacheBehaviors",
+            "name_underscore": "cache_behaviors",
+            "required": "No",
+            "type": "List of CacheBehavior"
+        },
+        {
+            "name": "CustomErrorResponses",
+            "name_underscore": "custom_error_responses",
+            "required": "No",
+            "type": "List of CloudFront\n      DistributionConfig CustomErrorResponse"
+        },
+        {
+            "name": "Origins",
+            "name_underscore": "origins",
+            "required": "Yes",
+            "type": "List of Origins."
+        }
+    ],
+    "mixins": [],
+    "resource_name": "CloudFront_DistributionConfig",
+    "ruby_class_name": "DistributionConfig",
+    "ruby_class_name_underscore": "distributionconfig",
+    "ruby_comment_name": "CloudFront_DistributionConfig",
+    "topic_title": "CloudFront DistributionConfig",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig.html",
+    "variables": [
+        {
+            "name": "Comment",
+            "name_underscore": "comment",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "DefaultCacheBehavior",
+            "name_underscore": "default_cache_behavior",
+            "required": "Yes",
+            "type": "DefaultCacheBehavior type"
+        },
+        {
+            "name": "DefaultRootObject",
+            "name_underscore": "default_root_object",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Enabled",
+            "name_underscore": "enabled",
+            "required": "Yes",
+            "type": "Boolean"
+        },
+        {
+            "name": "Logging",
+            "name_underscore": "logging",
+            "required": "No",
+            "type": "Logging\n                  type"
+        },
+        {
+            "name": "PriceClass",
+            "name_underscore": "price_class",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Restrictions",
+            "name_underscore": "restrictions",
+            "required": "No",
+            "type": "CloudFront\n      DistributionConfiguration Restrictions"
+        },
+        {
+            "name": "ViewerCertificate",
+            "name_underscore": "viewer_certificate",
+            "required": "No",
+            "type": "CloudFront\n      DistributionConfiguration ViewerCertificate"
+        }
+    ]
+}

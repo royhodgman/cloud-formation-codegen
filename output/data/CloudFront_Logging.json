@@ -1,1 +1,30 @@
-{"resource_name": "CloudFront_Logging", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-logging.html", "topic_title": "CloudFront Logging", "variables": [{"required": "Yes", "type": "String", "name": "Bucket", "name_underscore": "bucket"}, {"required": "No", "type": "Boolean", "name": "IncludeCookies", "name_underscore": "include_cookies"}, {"required": "No", "type": "String", "name": "Prefix", "name_underscore": "prefix"}], "mixins": [], "ruby_class_name": "Logging", "ruby_class_name_underscore": "logging", "ruby_comment_name": "CloudFront_Logging", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudFront_Logging",
+    "ruby_class_name": "Logging",
+    "ruby_class_name_underscore": "logging",
+    "ruby_comment_name": "CloudFront_Logging",
+    "topic_title": "CloudFront Logging",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-logging.html",
+    "variables": [
+        {
+            "name": "Bucket",
+            "name_underscore": "bucket",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "IncludeCookies",
+            "name_underscore": "include_cookies",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "Prefix",
+            "name_underscore": "prefix",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

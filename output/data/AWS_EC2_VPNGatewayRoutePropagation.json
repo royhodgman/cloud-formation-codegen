@@ -1,1 +1,25 @@
-{"resource_name": "AWS_EC2_VPNGatewayRoutePropagation", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-gatewayrouteprop.html", "topic_title": "AWS::EC2::VPNGatewayRoutePropagation", "variables": [{"required": "Yes", "type": "String", "name": "VpnGatewayId", "name_underscore": "vpn_gateway_id"}], "mixins": [], "ruby_class_name": "EC2VPNGatewayRoutePropagation", "ruby_class_name_underscore": "ec2_vpngatewayroutepropagation", "ruby_comment_name": "AWS_EC2_VPNGatewayRoutePropagation", "list_variables": [{"required": "Yes", "type": "List of route table IDs", "name": "RouteTableIds", "name_underscore": "route_table_ids"}]}
+{
+    "list_variables": [
+        {
+            "name": "RouteTableIds",
+            "name_underscore": "route_table_ids",
+            "required": "Yes",
+            "type": "List of route table IDs"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_EC2_VPNGatewayRoutePropagation",
+    "ruby_class_name": "EC2VPNGatewayRoutePropagation",
+    "ruby_class_name_underscore": "ec2_vpngatewayroutepropagation",
+    "ruby_comment_name": "AWS_EC2_VPNGatewayRoutePropagation",
+    "topic_title": "AWS::EC2::VPNGatewayRoutePropagation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-gatewayrouteprop.html",
+    "variables": [
+        {
+            "name": "VpnGatewayId",
+            "name_underscore": "vpn_gateway_id",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

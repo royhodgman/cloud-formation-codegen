@@ -1,1 +1,103 @@
-{"resource_name": "AWS_CloudWatch_Alarm", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html", "topic_title": "AWS::CloudWatch::Alarm", "variables": [{"required": "No", "type": "Boolean", "name": "ActionsEnabled", "name_underscore": "actions_enabled"}, {"required": "No", "type": "String", "name": "AlarmDescription", "name_underscore": "alarm_description"}, {"required": "No", "type": "String", "name": "AlarmName", "name_underscore": "alarm_name"}, {"required": "Yes", "type": "String", "name": "ComparisonOperator", "name_underscore": "comparison_operator"}, {"required": "Yes", "type": "String", "name": "EvaluationPeriods", "name_underscore": "evaluation_periods"}, {"required": "Yes", "type": "String", "name": "MetricName", "name_underscore": "metric_name"}, {"required": "Yes", "type": "String", "name": "Namespace", "name_underscore": "namespace"}, {"required": "Yes", "type": "String", "name": "Period", "name_underscore": "period"}, {"required": "Yes", "type": "String", "name": "Statistic", "name_underscore": "statistic"}, {"required": "Yes", "type": "String", "name": "Threshold", "name_underscore": "threshold"}, {"required": "No", "type": "String", "name": "Unit", "name_underscore": "unit"}], "mixins": [], "ruby_class_name": "CloudWatchAlarm", "ruby_class_name_underscore": "cloudwatch_alarm", "ruby_comment_name": "AWS_CloudWatch_Alarm", "list_variables": [{"required": "No", "type": "List of strings", "name": "AlarmActions", "name_underscore": "alarm_actions"}, {"required": "No", "type": "List of Metric Dimension", "name": "Dimensions", "name_underscore": "dimensions"}, {"required": "No", "type": "List of strings", "name": "InsufficientDataActions", "name_underscore": "insufficient_data_actions"}, {"required": "No", "type": "List of strings", "name": "OKActions", "name_underscore": "ok_actions"}]}
+{
+    "list_variables": [
+        {
+            "name": "AlarmActions",
+            "name_underscore": "alarm_actions",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "Dimensions",
+            "name_underscore": "dimensions",
+            "required": "No",
+            "type": "List of Metric Dimension"
+        },
+        {
+            "name": "InsufficientDataActions",
+            "name_underscore": "insufficient_data_actions",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "OKActions",
+            "name_underscore": "ok_actions",
+            "required": "No",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_CloudWatch_Alarm",
+    "ruby_class_name": "CloudWatchAlarm",
+    "ruby_class_name_underscore": "cloudwatch_alarm",
+    "ruby_comment_name": "AWS_CloudWatch_Alarm",
+    "topic_title": "AWS::CloudWatch::Alarm",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html",
+    "variables": [
+        {
+            "name": "ActionsEnabled",
+            "name_underscore": "actions_enabled",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "AlarmDescription",
+            "name_underscore": "alarm_description",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "AlarmName",
+            "name_underscore": "alarm_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "ComparisonOperator",
+            "name_underscore": "comparison_operator",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "EvaluationPeriods",
+            "name_underscore": "evaluation_periods",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "MetricName",
+            "name_underscore": "metric_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Namespace",
+            "name_underscore": "namespace",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Period",
+            "name_underscore": "period",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Statistic",
+            "name_underscore": "statistic",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Threshold",
+            "name_underscore": "threshold",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Unit",
+            "name_underscore": "unit",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

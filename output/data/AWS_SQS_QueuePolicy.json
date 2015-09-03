@@ -1,1 +1,25 @@
-{"resource_name": "AWS_SQS_QueuePolicy", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-policy.html", "topic_title": "AWS::SQS::QueuePolicy", "variables": [{"required": "Yes", "type": "JSON object", "name": "PolicyDocument", "name_underscore": "policy_document"}], "mixins": [], "ruby_class_name": "SQSQueuePolicy", "ruby_class_name_underscore": "sqs_queuepolicy", "ruby_comment_name": "AWS_SQS_QueuePolicy", "list_variables": [{"required": "Yes", "type": "List of strings", "name": "Queues", "name_underscore": "queues"}]}
+{
+    "list_variables": [
+        {
+            "name": "Queues",
+            "name_underscore": "queues",
+            "required": "Yes",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_SQS_QueuePolicy",
+    "ruby_class_name": "SQSQueuePolicy",
+    "ruby_class_name_underscore": "sqs_queuepolicy",
+    "ruby_comment_name": "AWS_SQS_QueuePolicy",
+    "topic_title": "AWS::SQS::QueuePolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-policy.html",
+    "variables": [
+        {
+            "name": "PolicyDocument",
+            "name_underscore": "policy_document",
+            "required": "Yes",
+            "type": "JSON object"
+        }
+    ]
+}

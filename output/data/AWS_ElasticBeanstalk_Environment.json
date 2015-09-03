@@ -1,1 +1,81 @@
-{"resource_name": "AWS_ElasticBeanstalk_Environment", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html", "topic_title": "AWS::ElasticBeanstalk::Environment", "variables": [{"required": "Yes", "type": "String", "name": "ApplicationName", "name_underscore": "application_name"}, {"required": "No", "type": "String", "name": "CNAMEPrefix", "name_underscore": "cname_prefix"}, {"required": "No", "type": "String", "name": "Description", "name_underscore": "description"}, {"required": "No", "type": "String", "name": "EnvironmentName", "name_underscore": "environment_name"}, {"required": "No", "type": "String", "name": "SolutionStackName", "name_underscore": "solution_stack_name"}, {"required": "No", "type": "AWS CloudFormation Resource Tags", "name": "Tags", "name_underscore": "tags"}, {"required": "No", "type": "String", "name": "TemplateName", "name_underscore": "template_name"}, {"required": "No", "type": "Elastic Beanstalk Environment Tier Property\n      Type", "name": "Tier", "name_underscore": "tier"}, {"required": "No", "type": "String", "name": "VersionLabel", "name_underscore": "version_label"}, {"required": "No", "type": "String", "name": "EndpointURL", "name_underscore": "endpoint_url"}], "mixins": ["Taggable"], "ruby_class_name": "ElasticBeanstalkEnvironment", "ruby_class_name_underscore": "elasticbeanstalk_environment", "ruby_comment_name": "AWS_ElasticBeanstalk_Environment", "list_variables": [{"required": "No", "type": "A list of OptionSettings.", "name": "OptionSettings", "name_underscore": "option_settings"}]}
+{
+    "list_variables": [
+        {
+            "name": "OptionSettings",
+            "name_underscore": "option_settings",
+            "required": "No",
+            "type": "A list of OptionSettings."
+        }
+    ],
+    "mixins": [
+        "Taggable"
+    ],
+    "resource_name": "AWS_ElasticBeanstalk_Environment",
+    "ruby_class_name": "ElasticBeanstalkEnvironment",
+    "ruby_class_name_underscore": "elasticbeanstalk_environment",
+    "ruby_comment_name": "AWS_ElasticBeanstalk_Environment",
+    "topic_title": "AWS::ElasticBeanstalk::Environment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html",
+    "variables": [
+        {
+            "name": "ApplicationName",
+            "name_underscore": "application_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "CNAMEPrefix",
+            "name_underscore": "cname_prefix",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Description",
+            "name_underscore": "description",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "EnvironmentName",
+            "name_underscore": "environment_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "SolutionStackName",
+            "name_underscore": "solution_stack_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Tags",
+            "name_underscore": "tags",
+            "required": "No",
+            "type": "AWS CloudFormation Resource Tags"
+        },
+        {
+            "name": "TemplateName",
+            "name_underscore": "template_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Tier",
+            "name_underscore": "tier",
+            "required": "No",
+            "type": "Elastic Beanstalk Environment Tier Property\n      Type"
+        },
+        {
+            "name": "VersionLabel",
+            "name_underscore": "version_label",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "EndpointURL",
+            "name_underscore": "endpoint_url",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

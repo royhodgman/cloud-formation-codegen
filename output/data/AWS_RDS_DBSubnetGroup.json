@@ -1,1 +1,33 @@
-{"resource_name": "AWS_RDS_DBSubnetGroup", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbsubnet-group.html", "topic_title": "AWS::RDS::DBSubnetGroup", "variables": [{"required": "Yes", "type": "String", "name": "DBSubnetGroupDescription", "name_underscore": "db_subnet_group_description"}], "mixins": ["Taggable"], "ruby_class_name": "RDSDBSubnetGroup", "ruby_class_name_underscore": "rds_dbsubnetgroup", "ruby_comment_name": "AWS_RDS_DBSubnetGroup", "list_variables": [{"required": "Yes", "type": "List of strings", "name": "SubnetIds", "name_underscore": "subnet_ids"}, {"required": "No", "type": "A list of resource tags.", "name": "Tags", "name_underscore": "tags"}]}
+{
+    "list_variables": [
+        {
+            "name": "SubnetIds",
+            "name_underscore": "subnet_ids",
+            "required": "Yes",
+            "type": "List of strings"
+        },
+        {
+            "name": "Tags",
+            "name_underscore": "tags",
+            "required": "No",
+            "type": "A list of resource tags."
+        }
+    ],
+    "mixins": [
+        "Taggable"
+    ],
+    "resource_name": "AWS_RDS_DBSubnetGroup",
+    "ruby_class_name": "RDSDBSubnetGroup",
+    "ruby_class_name_underscore": "rds_dbsubnetgroup",
+    "ruby_comment_name": "AWS_RDS_DBSubnetGroup",
+    "topic_title": "AWS::RDS::DBSubnetGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbsubnet-group.html",
+    "variables": [
+        {
+            "name": "DBSubnetGroupDescription",
+            "name_underscore": "db_subnet_group_description",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

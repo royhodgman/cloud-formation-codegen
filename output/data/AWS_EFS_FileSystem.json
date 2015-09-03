@@ -1,1 +1,18 @@
-{"resource_name": "AWS_EFS_FileSystem", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html", "topic_title": "AWS::EFS::FileSystem", "variables": [{"required": "No", "type": "Amazon Elastic File System FileSystem\n      FileSystemTags", "name": "FileSystemTags", "name_underscore": "file_system_tags"}], "mixins": [], "ruby_class_name": "EFSFileSystem", "ruby_class_name_underscore": "efs_filesystem", "ruby_comment_name": "AWS_EFS_FileSystem", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_EFS_FileSystem",
+    "ruby_class_name": "EFSFileSystem",
+    "ruby_class_name_underscore": "efs_filesystem",
+    "ruby_comment_name": "AWS_EFS_FileSystem",
+    "topic_title": "AWS::EFS::FileSystem",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html",
+    "variables": [
+        {
+            "name": "FileSystemTags",
+            "name_underscore": "file_system_tags",
+            "required": "No",
+            "type": "Amazon Elastic File System FileSystem\n      FileSystemTags"
+        }
+    ]
+}

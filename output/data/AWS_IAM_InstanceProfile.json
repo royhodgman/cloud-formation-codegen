@@ -1,1 +1,31 @@
-{"resource_name": "AWS_IAM_InstanceProfile", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-instanceprofile.html", "topic_title": "AWS::IAM::InstanceProfile", "variables": [{"required": "Yes", "type": "String", "name": "Path", "name_underscore": "path"}, {"required": "No", "type": "String", "name": "Arn", "name_underscore": "arn"}], "mixins": [], "ruby_class_name": "IAMInstanceProfile", "ruby_class_name_underscore": "iam_instanceprofile", "ruby_comment_name": "AWS_IAM_InstanceProfile", "list_variables": [{"required": "Yes", "type": "List of references to AWS::IAM::Roles. Currently, a\n                  maximum of one role can be assigned to an instance profile.", "name": "Roles", "name_underscore": "roles"}]}
+{
+    "list_variables": [
+        {
+            "name": "Roles",
+            "name_underscore": "roles",
+            "required": "Yes",
+            "type": "List of references to AWS::IAM::Roles. Currently, a\n                  maximum of one role can be assigned to an instance profile."
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_IAM_InstanceProfile",
+    "ruby_class_name": "IAMInstanceProfile",
+    "ruby_class_name_underscore": "iam_instanceprofile",
+    "ruby_comment_name": "AWS_IAM_InstanceProfile",
+    "topic_title": "AWS::IAM::InstanceProfile",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-instanceprofile.html",
+    "variables": [
+        {
+            "name": "Path",
+            "name_underscore": "path",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Arn",
+            "name_underscore": "arn",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

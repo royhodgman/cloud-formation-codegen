@@ -1,1 +1,24 @@
-{"resource_name": "Amazon_S3_Logging_Configuration", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-loggingconfig.html", "topic_title": "Amazon S3 Logging Configuration", "variables": [{"required": "No", "type": "String", "name": "DestinationBucketName", "name_underscore": "destination_bucket_name"}, {"required": "No", "type": "String", "name": "LogFilePrefix", "name_underscore": "log_file_prefix"}], "mixins": [], "ruby_class_name": "S3LoggingConfiguration", "ruby_class_name_underscore": "s3_logging_configuration", "ruby_comment_name": "Amazon_S3_Logging_Configuration", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_S3_Logging_Configuration",
+    "ruby_class_name": "S3LoggingConfiguration",
+    "ruby_class_name_underscore": "s3_logging_configuration",
+    "ruby_comment_name": "Amazon_S3_Logging_Configuration",
+    "topic_title": "Amazon S3 Logging Configuration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-loggingconfig.html",
+    "variables": [
+        {
+            "name": "DestinationBucketName",
+            "name_underscore": "destination_bucket_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "LogFilePrefix",
+            "name_underscore": "log_file_prefix",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

@@ -34,7 +34,7 @@ class CfDocsScraperPipeline(object):
 
         # write out the item as json
         with open( output_file_name, "wb" ) as output_file:
-            json.dump( dict(item), output_file )
+            json.dump( dict(item), output_file, sort_keys=True, indent=4, separators=(',', ': ') )
 
         # also, render the ruby class
 

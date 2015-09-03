@@ -1,1 +1,61 @@
-{"resource_name": "CloudFront_DefaultCacheBehavior", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-defaultcachebehavior.html", "topic_title": "CloudFront\n      DefaultCacheBehavior", "variables": [{"required": "Yes", "type": "ForwardedValues\n                  type", "name": "ForwardedValues", "name_underscore": "forwarded_values"}, {"required": "No", "type": "String", "name": "MinTTL", "name_underscore": "min_ttl"}, {"required": "No", "type": "Boolean", "name": "SmoothStreaming", "name_underscore": "smooth_streaming"}, {"required": "Yes", "type": "String", "name": "TargetOriginId", "name_underscore": "target_origin_id"}, {"required": "Yes", "type": "String", "name": "ViewerProtocolPolicy", "name_underscore": "viewer_protocol_policy"}], "mixins": [], "ruby_class_name": "DefaultCacheBehavior", "ruby_class_name_underscore": "defaultcachebehavior", "ruby_comment_name": "CloudFront_DefaultCacheBehavior", "list_variables": [{"required": "No", "type": "List of strings", "name": "AllowedMethods", "name_underscore": "allowed_methods"}, {"required": "No", "type": "List of strings", "name": "CachedMethods", "name_underscore": "cached_methods"}, {"required": "No", "type": "List of strings", "name": "TrustedSigners", "name_underscore": "trusted_signers"}]}
+{
+    "list_variables": [
+        {
+            "name": "AllowedMethods",
+            "name_underscore": "allowed_methods",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "CachedMethods",
+            "name_underscore": "cached_methods",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "TrustedSigners",
+            "name_underscore": "trusted_signers",
+            "required": "No",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "CloudFront_DefaultCacheBehavior",
+    "ruby_class_name": "DefaultCacheBehavior",
+    "ruby_class_name_underscore": "defaultcachebehavior",
+    "ruby_comment_name": "CloudFront_DefaultCacheBehavior",
+    "topic_title": "CloudFront\n      DefaultCacheBehavior",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-defaultcachebehavior.html",
+    "variables": [
+        {
+            "name": "ForwardedValues",
+            "name_underscore": "forwarded_values",
+            "required": "Yes",
+            "type": "ForwardedValues\n                  type"
+        },
+        {
+            "name": "MinTTL",
+            "name_underscore": "min_ttl",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "SmoothStreaming",
+            "name_underscore": "smooth_streaming",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "TargetOriginId",
+            "name_underscore": "target_origin_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "ViewerProtocolPolicy",
+            "name_underscore": "viewer_protocol_policy",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

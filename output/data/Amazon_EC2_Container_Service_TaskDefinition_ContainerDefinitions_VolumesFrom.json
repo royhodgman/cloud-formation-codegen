@@ -1,1 +1,24 @@
-{"resource_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions_VolumesFrom", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions-volumesfrom.html", "topic_title": "Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions VolumesFrom", "variables": [{"required": "Yes", "type": "String", "name": "SourceContainer", "name_underscore": "source_container"}, {"required": "No", "type": "Boolean", "name": "ReadOnly", "name_underscore": "read_only"}], "mixins": [], "ruby_class_name": "EC2ContainerServiceTaskDefinitionContainerDefinitionsVolumesFrom", "ruby_class_name_underscore": "ec2_container_service_taskdefinition_containerdefinitions_volumesfrom", "ruby_comment_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions_VolumesFrom", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions_VolumesFrom",
+    "ruby_class_name": "EC2ContainerServiceTaskDefinitionContainerDefinitionsVolumesFrom",
+    "ruby_class_name_underscore": "ec2_container_service_taskdefinition_containerdefinitions_volumesfrom",
+    "ruby_comment_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions_VolumesFrom",
+    "topic_title": "Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions VolumesFrom",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions-volumesfrom.html",
+    "variables": [
+        {
+            "name": "SourceContainer",
+            "name_underscore": "source_container",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "ReadOnly",
+            "name_underscore": "read_only",
+            "required": "No",
+            "type": "Boolean"
+        }
+    ]
+}

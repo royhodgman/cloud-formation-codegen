@@ -1,1 +1,48 @@
-{"resource_name": "AWS_OpsWorks_Source_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-stack-source.html", "topic_title": "AWS OpsWorks Source Type", "variables": [{"required": "No", "type": "String", "name": "Password", "name_underscore": "password"}, {"required": "No", "type": "String", "name": "Revision", "name_underscore": "revision"}, {"required": "No", "type": "String", "name": "SshKey", "name_underscore": "ssh_key"}, {"required": "No", "type": "String", "name": "Type", "name_underscore": "type"}, {"required": "No", "type": "String", "name": "Url", "name_underscore": "url"}, {"required": "No", "type": "String", "name": "Username", "name_underscore": "username"}], "mixins": [], "ruby_class_name": "OpsWorksSourceType", "ruby_class_name_underscore": "opsworks_source_type", "ruby_comment_name": "AWS_OpsWorks_Source_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_OpsWorks_Source_Type",
+    "ruby_class_name": "OpsWorksSourceType",
+    "ruby_class_name_underscore": "opsworks_source_type",
+    "ruby_comment_name": "AWS_OpsWorks_Source_Type",
+    "topic_title": "AWS OpsWorks Source Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-stack-source.html",
+    "variables": [
+        {
+            "name": "Password",
+            "name_underscore": "password",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Revision",
+            "name_underscore": "revision",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "SshKey",
+            "name_underscore": "ssh_key",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Type",
+            "name_underscore": "type",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Url",
+            "name_underscore": "url",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Username",
+            "name_underscore": "username",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

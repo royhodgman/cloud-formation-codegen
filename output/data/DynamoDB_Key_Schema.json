@@ -1,1 +1,24 @@
-{"resource_name": "DynamoDB_Key_Schema", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-dynamodb-keyschema.html", "topic_title": "DynamoDB Key Schema", "variables": [{"required": "Yes", "type": "String", "name": "AttributeName", "name_underscore": "attribute_name"}, {"required": "Yes", "type": "String", "name": "KeyType", "name_underscore": "key_type"}], "mixins": [], "ruby_class_name": "KeySchema", "ruby_class_name_underscore": "key_schema", "ruby_comment_name": "DynamoDB_Key_Schema", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "DynamoDB_Key_Schema",
+    "ruby_class_name": "KeySchema",
+    "ruby_class_name_underscore": "key_schema",
+    "ruby_comment_name": "DynamoDB_Key_Schema",
+    "topic_title": "DynamoDB Key Schema",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-dynamodb-keyschema.html",
+    "variables": [
+        {
+            "name": "AttributeName",
+            "name_underscore": "attribute_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "KeyType",
+            "name_underscore": "key_type",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

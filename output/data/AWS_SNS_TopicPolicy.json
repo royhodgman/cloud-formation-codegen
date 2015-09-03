@@ -1,1 +1,25 @@
-{"resource_name": "AWS_SNS_TopicPolicy", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-policy.html", "topic_title": "AWS::SNS::TopicPolicy", "variables": [{"required": "Yes", "type": "JSON object", "name": "PolicyDocument", "name_underscore": "policy_document"}], "mixins": [], "ruby_class_name": "SNSTopicPolicy", "ruby_class_name_underscore": "sns_topicpolicy", "ruby_comment_name": "AWS_SNS_TopicPolicy", "list_variables": [{"required": "Yes", "type": "A list of Amazon SNS topics ARNs", "name": "Topics", "name_underscore": "topics"}]}
+{
+    "list_variables": [
+        {
+            "name": "Topics",
+            "name_underscore": "topics",
+            "required": "Yes",
+            "type": "A list of Amazon SNS topics ARNs"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_SNS_TopicPolicy",
+    "ruby_class_name": "SNSTopicPolicy",
+    "ruby_class_name_underscore": "sns_topicpolicy",
+    "ruby_comment_name": "AWS_SNS_TopicPolicy",
+    "topic_title": "AWS::SNS::TopicPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-policy.html",
+    "variables": [
+        {
+            "name": "PolicyDocument",
+            "name_underscore": "policy_document",
+            "required": "Yes",
+            "type": "JSON object"
+        }
+    ]
+}

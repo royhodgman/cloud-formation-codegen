@@ -1,1 +1,48 @@
-{"resource_name": "AWS_DynamoDB_Table", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html", "topic_title": "AWS::DynamoDB::Table", "variables": [{"required": "Yes", "type": "DynamoDB Attribute Definitions", "name": "AttributeDefinitions", "name_underscore": "attribute_definitions"}, {"required": "No", "type": "DynamoDB Global Secondary Indexes", "name": "GlobalSecondaryIndexes", "name_underscore": "global_secondary_indexes"}, {"required": "Yes", "type": "DynamoDB Key Schema", "name": "KeySchema", "name_underscore": "key_schema"}, {"required": "No", "type": "DynamoDB Local Secondary Indexes", "name": "LocalSecondaryIndexes", "name_underscore": "local_secondary_indexes"}, {"required": "Yes", "type": "DynamoDB Provisioned\n      Throughput", "name": "ProvisionedThroughput", "name_underscore": "provisioned_throughput"}, {"required": "No", "type": "String", "name": "TableName", "name_underscore": "table_name"}], "mixins": [], "ruby_class_name": "DynamoDBTable", "ruby_class_name_underscore": "dynamodb_table", "ruby_comment_name": "AWS_DynamoDB_Table", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_DynamoDB_Table",
+    "ruby_class_name": "DynamoDBTable",
+    "ruby_class_name_underscore": "dynamodb_table",
+    "ruby_comment_name": "AWS_DynamoDB_Table",
+    "topic_title": "AWS::DynamoDB::Table",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html",
+    "variables": [
+        {
+            "name": "AttributeDefinitions",
+            "name_underscore": "attribute_definitions",
+            "required": "Yes",
+            "type": "DynamoDB Attribute Definitions"
+        },
+        {
+            "name": "GlobalSecondaryIndexes",
+            "name_underscore": "global_secondary_indexes",
+            "required": "No",
+            "type": "DynamoDB Global Secondary Indexes"
+        },
+        {
+            "name": "KeySchema",
+            "name_underscore": "key_schema",
+            "required": "Yes",
+            "type": "DynamoDB Key Schema"
+        },
+        {
+            "name": "LocalSecondaryIndexes",
+            "name_underscore": "local_secondary_indexes",
+            "required": "No",
+            "type": "DynamoDB Local Secondary Indexes"
+        },
+        {
+            "name": "ProvisionedThroughput",
+            "name_underscore": "provisioned_throughput",
+            "required": "Yes",
+            "type": "DynamoDB Provisioned\n      Throughput"
+        },
+        {
+            "name": "TableName",
+            "name_underscore": "table_name",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

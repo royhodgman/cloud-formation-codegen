@@ -1,1 +1,30 @@
-{"resource_name": "CloudWatch_Logs_MetricFilter_MetricTransformation_Property", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-logs-metricfilter-metrictransformation.html", "topic_title": "CloudWatch Logs MetricFilter\n      MetricTransformation Property", "variables": [{"required": "Yes", "type": "String", "name": "MetricName", "name_underscore": "metric_name"}, {"required": "Yes", "type": "String", "name": "MetricNamespace", "name_underscore": "metric_namespace"}, {"required": "Yes", "type": "String", "name": "MetricValue", "name_underscore": "metric_value"}], "mixins": [], "ruby_class_name": "LogsMetricFilterMetricTransformationProperty", "ruby_class_name_underscore": "logs_metricfilter_metrictransformation_property", "ruby_comment_name": "CloudWatch_Logs_MetricFilter_MetricTransformation_Property", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudWatch_Logs_MetricFilter_MetricTransformation_Property",
+    "ruby_class_name": "LogsMetricFilterMetricTransformationProperty",
+    "ruby_class_name_underscore": "logs_metricfilter_metrictransformation_property",
+    "ruby_comment_name": "CloudWatch_Logs_MetricFilter_MetricTransformation_Property",
+    "topic_title": "CloudWatch Logs MetricFilter\n      MetricTransformation Property",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-logs-metricfilter-metrictransformation.html",
+    "variables": [
+        {
+            "name": "MetricName",
+            "name_underscore": "metric_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "MetricNamespace",
+            "name_underscore": "metric_namespace",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "MetricValue",
+            "name_underscore": "metric_value",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

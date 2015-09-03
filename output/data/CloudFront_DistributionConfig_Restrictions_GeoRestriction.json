@@ -1,1 +1,43 @@
-{"resource_name": "CloudFront_DistributionConfig_Restrictions_GeoRestriction", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig-restrictions-georestriction.html", "topic_title": "CloudFront\n      DistributionConfig Restrictions GeoRestriction", "variables": [{"required": "Yes", "type": "String", "name": "RestrictionType", "name_underscore": "restriction_type"}, {"required": "No", "type": "String", "name": "blacklist", "name_underscore": "blacklist"}, {"required": "No", "type": "String", "name": "whitelist", "name_underscore": "whitelist"}, {"required": "No", "type": "String", "name": "none", "name_underscore": "none"}], "mixins": [], "ruby_class_name": "DistributionConfigRestrictionsGeoRestriction", "ruby_class_name_underscore": "distributionconfig_restrictions_georestriction", "ruby_comment_name": "CloudFront_DistributionConfig_Restrictions_GeoRestriction", "list_variables": [{"required": "Conditional. Required if you specified blacklist or\n                     whitelist for the RestrictionType property.", "type": "List of strings", "name": "Locations", "name_underscore": "locations"}]}
+{
+    "list_variables": [
+        {
+            "name": "Locations",
+            "name_underscore": "locations",
+            "required": "Conditional. Required if you specified blacklist or\n                     whitelist for the RestrictionType property.",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "CloudFront_DistributionConfig_Restrictions_GeoRestriction",
+    "ruby_class_name": "DistributionConfigRestrictionsGeoRestriction",
+    "ruby_class_name_underscore": "distributionconfig_restrictions_georestriction",
+    "ruby_comment_name": "CloudFront_DistributionConfig_Restrictions_GeoRestriction",
+    "topic_title": "CloudFront\n      DistributionConfig Restrictions GeoRestriction",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig-restrictions-georestriction.html",
+    "variables": [
+        {
+            "name": "RestrictionType",
+            "name_underscore": "restriction_type",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "blacklist",
+            "name_underscore": "blacklist",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "whitelist",
+            "name_underscore": "whitelist",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "none",
+            "name_underscore": "none",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

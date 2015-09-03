@@ -1,1 +1,30 @@
-{"resource_name": "Route_53_AliasTarget_Property", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-aliastarget.html", "topic_title": "Route 53 AliasTarget Property", "variables": [{"required": "Yes", "type": "String", "name": "DNSName", "name_underscore": "dns_name"}, {"required": "No", "type": "Boolean", "name": "EvaluateTargetHealth", "name_underscore": "evaluate_target_health"}, {"required": "Yes", "type": "String", "name": "HostedZoneId", "name_underscore": "hosted_zone_id"}], "mixins": [], "ruby_class_name": "53AliasTargetProperty", "ruby_class_name_underscore": "53_aliastarget_property", "ruby_comment_name": "Route_53_AliasTarget_Property", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Route_53_AliasTarget_Property",
+    "ruby_class_name": "53AliasTargetProperty",
+    "ruby_class_name_underscore": "53_aliastarget_property",
+    "ruby_comment_name": "Route_53_AliasTarget_Property",
+    "topic_title": "Route 53 AliasTarget Property",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-aliastarget.html",
+    "variables": [
+        {
+            "name": "DNSName",
+            "name_underscore": "dns_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "EvaluateTargetHealth",
+            "name_underscore": "evaluate_target_health",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "HostedZoneId",
+            "name_underscore": "hosted_zone_id",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

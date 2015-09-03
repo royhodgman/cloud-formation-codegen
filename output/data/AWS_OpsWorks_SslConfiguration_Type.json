@@ -1,1 +1,30 @@
-{"resource_name": "AWS_OpsWorks_SslConfiguration_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-app-sslconfiguration.html", "topic_title": "AWS OpsWorks SslConfiguration\n      Type", "variables": [{"required": "Yes", "type": "String", "name": "Certificate", "name_underscore": "certificate"}, {"required": "No", "type": "String", "name": "Chain", "name_underscore": "chain"}, {"required": "Yes", "type": "String", "name": "PrivateKey", "name_underscore": "private_key"}], "mixins": [], "ruby_class_name": "OpsWorksSslConfigurationType", "ruby_class_name_underscore": "opsworks_sslconfiguration_type", "ruby_comment_name": "AWS_OpsWorks_SslConfiguration_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_OpsWorks_SslConfiguration_Type",
+    "ruby_class_name": "OpsWorksSslConfigurationType",
+    "ruby_class_name_underscore": "opsworks_sslconfiguration_type",
+    "ruby_comment_name": "AWS_OpsWorks_SslConfiguration_Type",
+    "topic_title": "AWS OpsWorks SslConfiguration\n      Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-app-sslconfiguration.html",
+    "variables": [
+        {
+            "name": "Certificate",
+            "name_underscore": "certificate",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Chain",
+            "name_underscore": "chain",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "PrivateKey",
+            "name_underscore": "private_key",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

@@ -1,1 +1,43 @@
-{"resource_name": "AWS_IAM_Policy", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html", "topic_title": "AWS::IAM::Policy", "variables": [{"required": "Yes", "type": "JSON object", "name": "PolicyDocument", "name_underscore": "policy_document"}, {"required": "Yes", "type": "String", "name": "PolicyName", "name_underscore": "policy_name"}], "mixins": [], "ruby_class_name": "IAMPolicy", "ruby_class_name_underscore": "iam_policy", "ruby_comment_name": "AWS_IAM_Policy", "list_variables": [{"required": "Conditional. You must specify at least one of the following\n                  properties: Groups, Roles, or Users.", "type": "List of strings", "name": "Groups", "name_underscore": "groups"}, {"required": "Conditional. You must specify at least one of the following\n                  properties: Groups, Roles, or Users.", "type": "List of strings", "name": "Roles", "name_underscore": "roles"}, {"required": "Conditional. You must specify at least one of the following\n                  properties: Groups, Roles, or Users.", "type": "List of strings", "name": "Users", "name_underscore": "users"}]}
+{
+    "list_variables": [
+        {
+            "name": "Groups",
+            "name_underscore": "groups",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: Groups, Roles, or Users.",
+            "type": "List of strings"
+        },
+        {
+            "name": "Roles",
+            "name_underscore": "roles",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: Groups, Roles, or Users.",
+            "type": "List of strings"
+        },
+        {
+            "name": "Users",
+            "name_underscore": "users",
+            "required": "Conditional. You must specify at least one of the following\n                  properties: Groups, Roles, or Users.",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_IAM_Policy",
+    "ruby_class_name": "IAMPolicy",
+    "ruby_class_name_underscore": "iam_policy",
+    "ruby_comment_name": "AWS_IAM_Policy",
+    "topic_title": "AWS::IAM::Policy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html",
+    "variables": [
+        {
+            "name": "PolicyDocument",
+            "name_underscore": "policy_document",
+            "required": "Yes",
+            "type": "JSON object"
+        },
+        {
+            "name": "PolicyName",
+            "name_underscore": "policy_name",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

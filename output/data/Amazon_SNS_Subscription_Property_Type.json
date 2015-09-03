@@ -1,1 +1,24 @@
-{"resource_name": "Amazon_SNS_Subscription_Property_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-subscription.html", "topic_title": "Amazon SNS Subscription Property Type", "variables": [{"required": "Yes", "type": "String", "name": "Endpoint", "name_underscore": "endpoint"}, {"required": "Yes", "type": "String", "name": "Protocol", "name_underscore": "protocol"}], "mixins": [], "ruby_class_name": "SNSSubscriptionPropertyType", "ruby_class_name_underscore": "sns_subscription_property_type", "ruby_comment_name": "Amazon_SNS_Subscription_Property_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_SNS_Subscription_Property_Type",
+    "ruby_class_name": "SNSSubscriptionPropertyType",
+    "ruby_class_name_underscore": "sns_subscription_property_type",
+    "ruby_comment_name": "Amazon_SNS_Subscription_Property_Type",
+    "topic_title": "Amazon SNS Subscription Property Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-subscription.html",
+    "variables": [
+        {
+            "name": "Endpoint",
+            "name_underscore": "endpoint",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Protocol",
+            "name_underscore": "protocol",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

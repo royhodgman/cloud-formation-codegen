@@ -1,1 +1,24 @@
-{"resource_name": "AWS_CloudFront_Distribution", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution.html", "topic_title": "AWS::CloudFront::Distribution", "variables": [{"required": "Yes", "type": "DistributionConfig type", "name": "DistributionConfig", "name_underscore": "distribution_config"}, {"required": "No", "type": "String", "name": "DomainName", "name_underscore": "domain_name"}], "mixins": [], "ruby_class_name": "CloudFrontDistribution", "ruby_class_name_underscore": "cloudfront_distribution", "ruby_comment_name": "AWS_CloudFront_Distribution", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_CloudFront_Distribution",
+    "ruby_class_name": "CloudFrontDistribution",
+    "ruby_class_name_underscore": "cloudfront_distribution",
+    "ruby_comment_name": "AWS_CloudFront_Distribution",
+    "topic_title": "AWS::CloudFront::Distribution",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distribution.html",
+    "variables": [
+        {
+            "name": "DistributionConfig",
+            "name_underscore": "distribution_config",
+            "required": "Yes",
+            "type": "DistributionConfig type"
+        },
+        {
+            "name": "DomainName",
+            "name_underscore": "domain_name",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

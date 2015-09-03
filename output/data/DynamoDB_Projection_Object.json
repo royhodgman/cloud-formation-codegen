@@ -1,1 +1,43 @@
-{"resource_name": "DynamoDB_Projection_Object", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-dynamodb-projectionobject.html", "topic_title": "DynamoDB Projection Object", "variables": [{"required": "No", "type": "String", "name": "ProjectionType", "name_underscore": "projection_type"}, {"required": "No", "type": "String", "name": "KEYS_ONLY", "name_underscore": "keys_only"}, {"required": "No", "type": "String", "name": "INCLUDE", "name_underscore": "include"}, {"required": "No", "type": "String", "name": "ALL", "name_underscore": "all"}], "mixins": [], "ruby_class_name": "ProjectionObject", "ruby_class_name_underscore": "projection_object", "ruby_comment_name": "DynamoDB_Projection_Object", "list_variables": [{"required": "No", "type": "List of strings", "name": "NonKeyAttributes", "name_underscore": "non_key_attributes"}]}
+{
+    "list_variables": [
+        {
+            "name": "NonKeyAttributes",
+            "name_underscore": "non_key_attributes",
+            "required": "No",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "DynamoDB_Projection_Object",
+    "ruby_class_name": "ProjectionObject",
+    "ruby_class_name_underscore": "projection_object",
+    "ruby_comment_name": "DynamoDB_Projection_Object",
+    "topic_title": "DynamoDB Projection Object",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-dynamodb-projectionobject.html",
+    "variables": [
+        {
+            "name": "ProjectionType",
+            "name_underscore": "projection_type",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "KEYS_ONLY",
+            "name_underscore": "keys_only",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "INCLUDE",
+            "name_underscore": "include",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "ALL",
+            "name_underscore": "all",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

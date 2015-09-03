@@ -1,1 +1,24 @@
-{"resource_name": "AWS_ElasticBeanstalk_Application", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk.html", "topic_title": "AWS::ElasticBeanstalk::Application", "variables": [{"required": "No", "type": "String", "name": "ApplicationName", "name_underscore": "application_name"}, {"required": "No", "type": "String", "name": "Description", "name_underscore": "description"}], "mixins": [], "ruby_class_name": "ElasticBeanstalkApplication", "ruby_class_name_underscore": "elasticbeanstalk_application", "ruby_comment_name": "AWS_ElasticBeanstalk_Application", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_ElasticBeanstalk_Application",
+    "ruby_class_name": "ElasticBeanstalkApplication",
+    "ruby_class_name_underscore": "elasticbeanstalk_application",
+    "ruby_comment_name": "AWS_ElasticBeanstalk_Application",
+    "topic_title": "AWS::ElasticBeanstalk::Application",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk.html",
+    "variables": [
+        {
+            "name": "ApplicationName",
+            "name_underscore": "application_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Description",
+            "name_underscore": "description",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

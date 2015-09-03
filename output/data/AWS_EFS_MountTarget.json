@@ -1,1 +1,37 @@
-{"resource_name": "AWS_EFS_MountTarget", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html", "topic_title": "AWS::EFS::MountTarget", "variables": [{"required": "Yes", "type": "String", "name": "FileSystemId", "name_underscore": "file_system_id"}, {"required": "No", "type": "String", "name": "IpAddress", "name_underscore": "ip_address"}, {"required": "Yes", "type": "String", "name": "SubnetId", "name_underscore": "subnet_id"}], "mixins": [], "ruby_class_name": "EFSMountTarget", "ruby_class_name_underscore": "efs_mounttarget", "ruby_comment_name": "AWS_EFS_MountTarget", "list_variables": [{"required": "Yes", "type": "List of strings", "name": "SecurityGroups", "name_underscore": "security_groups"}]}
+{
+    "list_variables": [
+        {
+            "name": "SecurityGroups",
+            "name_underscore": "security_groups",
+            "required": "Yes",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_EFS_MountTarget",
+    "ruby_class_name": "EFSMountTarget",
+    "ruby_class_name_underscore": "efs_mounttarget",
+    "ruby_comment_name": "AWS_EFS_MountTarget",
+    "topic_title": "AWS::EFS::MountTarget",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html",
+    "variables": [
+        {
+            "name": "FileSystemId",
+            "name_underscore": "file_system_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "IpAddress",
+            "name_underscore": "ip_address",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "SubnetId",
+            "name_underscore": "subnet_id",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

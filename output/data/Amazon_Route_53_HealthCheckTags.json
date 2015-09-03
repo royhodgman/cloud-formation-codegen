@@ -1,1 +1,24 @@
-{"resource_name": "Amazon_Route_53_HealthCheckTags", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-healthcheck-healthchecktags.html", "topic_title": "Amazon Route\u00a053\n      HealthCheckTags", "variables": [{"required": "Yes", "type": "String", "name": "Key", "name_underscore": "key"}, {"required": "Yes", "type": "String", "name": "Value", "name_underscore": "value"}], "mixins": [], "ruby_class_name": "Route53HealthCheckTags", "ruby_class_name_underscore": "route_53_healthchecktags", "ruby_comment_name": "Amazon_Route_53_HealthCheckTags", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_Route_53_HealthCheckTags",
+    "ruby_class_name": "Route53HealthCheckTags",
+    "ruby_class_name_underscore": "route_53_healthchecktags",
+    "ruby_comment_name": "Amazon_Route_53_HealthCheckTags",
+    "topic_title": "Amazon Route\u00a053\n      HealthCheckTags",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-healthcheck-healthchecktags.html",
+    "variables": [
+        {
+            "name": "Key",
+            "name_underscore": "key",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Value",
+            "name_underscore": "value",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

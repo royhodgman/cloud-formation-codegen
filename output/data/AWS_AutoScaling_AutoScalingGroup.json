@@ -1,1 +1,111 @@
-{"resource_name": "AWS_AutoScaling_AutoScalingGroup", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html", "topic_title": "AWS::AutoScaling::AutoScalingGroup", "variables": [{"required": "No", "type": "String", "name": "Cooldown", "name_underscore": "cooldown"}, {"required": "No", "type": "String", "name": "DesiredCapacity", "name_underscore": "desired_capacity"}, {"required": "No", "type": "Integer", "name": "HealthCheckGracePeriod", "name_underscore": "health_check_grace_period"}, {"required": "No", "type": "String", "name": "HealthCheckType", "name_underscore": "health_check_type"}, {"required": "Conditional. You must specify this property if you don't specify the\n                     LaunchConfigurationName property.", "type": "String", "name": "InstanceId", "name_underscore": "instance_id"}, {"required": "Conditional; you must specify this property if\n                  you don't specify the InstanceId property.", "type": "String", "name": "LaunchConfigurationName", "name_underscore": "launch_configuration_name"}, {"required": "Yes", "type": "String", "name": "MaxSize", "name_underscore": "max_size"}, {"required": "Yes", "type": "String", "name": "MinSize", "name_underscore": "min_size"}, {"required": "No", "type": "String", "name": "PlacementGroup", "name_underscore": "placement_group"}], "mixins": ["Taggable"], "ruby_class_name": "AutoScalingAutoScalingGroup", "ruby_class_name_underscore": "autoscaling_autoscalinggroup", "ruby_comment_name": "AWS_AutoScaling_AutoScalingGroup", "list_variables": [{"required": "Conditional. If you don't specify the VPCZoneIdentifier\n                  property, you must specify this property.", "type": "List of strings", "name": "AvailabilityZones", "name_underscore": "availability_zones"}, {"required": "No", "type": "List of strings", "name": "LoadBalancerNames", "name_underscore": "load_balancer_names"}, {"required": "No", "type": "A list of  Auto Scaling MetricsCollection", "name": "MetricsCollection", "name_underscore": "metrics_collection"}, {"required": "No", "type": "List of Auto Scaling\n      NotificationConfigurations", "name": "NotificationConfigurations", "name_underscore": "notification_configurations"}, {"required": "No", "type": "List of Auto Scaling\n                     Tags", "name": "Tags", "name_underscore": "tags"}, {"required": "No", "type": "List of strings", "name": "TerminationPolicies", "name_underscore": "termination_policies"}, {"required": "Conditional. If you don't specify the\n                     AvailabilityZones property, you must specify this\n                  property.", "type": "List of strings", "name": "VPCZoneIdentifier", "name_underscore": "vpc_zone_identifier"}]}
+{
+    "list_variables": [
+        {
+            "name": "AvailabilityZones",
+            "name_underscore": "availability_zones",
+            "required": "Conditional. If you don't specify the VPCZoneIdentifier\n                  property, you must specify this property.",
+            "type": "List of strings"
+        },
+        {
+            "name": "LoadBalancerNames",
+            "name_underscore": "load_balancer_names",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "MetricsCollection",
+            "name_underscore": "metrics_collection",
+            "required": "No",
+            "type": "A list of  Auto Scaling MetricsCollection"
+        },
+        {
+            "name": "NotificationConfigurations",
+            "name_underscore": "notification_configurations",
+            "required": "No",
+            "type": "List of Auto Scaling\n      NotificationConfigurations"
+        },
+        {
+            "name": "Tags",
+            "name_underscore": "tags",
+            "required": "No",
+            "type": "List of Auto Scaling\n                     Tags"
+        },
+        {
+            "name": "TerminationPolicies",
+            "name_underscore": "termination_policies",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "VPCZoneIdentifier",
+            "name_underscore": "vpc_zone_identifier",
+            "required": "Conditional. If you don't specify the\n                     AvailabilityZones property, you must specify this\n                  property.",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [
+        "Taggable"
+    ],
+    "resource_name": "AWS_AutoScaling_AutoScalingGroup",
+    "ruby_class_name": "AutoScalingAutoScalingGroup",
+    "ruby_class_name_underscore": "autoscaling_autoscalinggroup",
+    "ruby_comment_name": "AWS_AutoScaling_AutoScalingGroup",
+    "topic_title": "AWS::AutoScaling::AutoScalingGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html",
+    "variables": [
+        {
+            "name": "Cooldown",
+            "name_underscore": "cooldown",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "DesiredCapacity",
+            "name_underscore": "desired_capacity",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "HealthCheckGracePeriod",
+            "name_underscore": "health_check_grace_period",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "HealthCheckType",
+            "name_underscore": "health_check_type",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "InstanceId",
+            "name_underscore": "instance_id",
+            "required": "Conditional. You must specify this property if you don't specify the\n                     LaunchConfigurationName property.",
+            "type": "String"
+        },
+        {
+            "name": "LaunchConfigurationName",
+            "name_underscore": "launch_configuration_name",
+            "required": "Conditional; you must specify this property if\n                  you don't specify the InstanceId property.",
+            "type": "String"
+        },
+        {
+            "name": "MaxSize",
+            "name_underscore": "max_size",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "MinSize",
+            "name_underscore": "min_size",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "PlacementGroup",
+            "name_underscore": "placement_group",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

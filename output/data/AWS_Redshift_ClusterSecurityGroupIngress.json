@@ -1,1 +1,36 @@
-{"resource_name": "AWS_Redshift_ClusterSecurityGroupIngress", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroupingress.html", "topic_title": "AWS::Redshift::ClusterSecurityGroupIngress", "variables": [{"required": "Yes", "type": "String", "name": "ClusterSecurityGroupName", "name_underscore": "cluster_security_group_name"}, {"required": "No", "type": "String", "name": "CIDRIP", "name_underscore": "cidrip"}, {"required": "No", "type": "String", "name": "EC2SecurityGroupName", "name_underscore": "ec2_security_group_name"}, {"required": "Conditional. If you specify the EC2SecurityGroupName\n                  property, you must specify this property.", "type": "String", "name": "EC2SecurityGroupOwnerId", "name_underscore": "ec2_security_group_owner_id"}], "mixins": [], "ruby_class_name": "RedshiftClusterSecurityGroupIngress", "ruby_class_name_underscore": "redshift_clustersecuritygroupingress", "ruby_comment_name": "AWS_Redshift_ClusterSecurityGroupIngress", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_Redshift_ClusterSecurityGroupIngress",
+    "ruby_class_name": "RedshiftClusterSecurityGroupIngress",
+    "ruby_class_name_underscore": "redshift_clustersecuritygroupingress",
+    "ruby_comment_name": "AWS_Redshift_ClusterSecurityGroupIngress",
+    "topic_title": "AWS::Redshift::ClusterSecurityGroupIngress",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersecuritygroupingress.html",
+    "variables": [
+        {
+            "name": "ClusterSecurityGroupName",
+            "name_underscore": "cluster_security_group_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "CIDRIP",
+            "name_underscore": "cidrip",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "EC2SecurityGroupName",
+            "name_underscore": "ec2_security_group_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "EC2SecurityGroupOwnerId",
+            "name_underscore": "ec2_security_group_owner_id",
+            "required": "Conditional. If you specify the EC2SecurityGroupName\n                  property, you must specify this property.",
+            "type": "String"
+        }
+    ]
+}

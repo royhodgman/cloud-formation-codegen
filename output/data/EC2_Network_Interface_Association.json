@@ -1,1 +1,36 @@
-{"resource_name": "EC2_Network_Interface_Association", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-network-interface-association.html", "topic_title": "EC2 Network Interface Association", "variables": [{"required": "Yes", "type": "String", "name": "AttachmentID", "name_underscore": "attachment_id"}, {"required": "Yes", "type": "String", "name": "InstanceID", "name_underscore": "instance_id"}, {"required": "Yes", "type": "String", "name": "PublicIp", "name_underscore": "public_ip"}, {"required": "Yes", "type": "String", "name": "IpOwnerId", "name_underscore": "ip_owner_id"}], "mixins": [], "ruby_class_name": "NetworkInterfaceAssociation", "ruby_class_name_underscore": "network_interface_association", "ruby_comment_name": "EC2_Network_Interface_Association", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "EC2_Network_Interface_Association",
+    "ruby_class_name": "NetworkInterfaceAssociation",
+    "ruby_class_name_underscore": "network_interface_association",
+    "ruby_comment_name": "EC2_Network_Interface_Association",
+    "topic_title": "EC2 Network Interface Association",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-network-interface-association.html",
+    "variables": [
+        {
+            "name": "AttachmentID",
+            "name_underscore": "attachment_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "InstanceID",
+            "name_underscore": "instance_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "PublicIp",
+            "name_underscore": "public_ip",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "IpOwnerId",
+            "name_underscore": "ip_owner_id",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

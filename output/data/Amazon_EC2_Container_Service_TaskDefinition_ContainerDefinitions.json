@@ -1,1 +1,85 @@
-{"resource_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions.html", "topic_title": "Amazon EC2 Container Service TaskDefinition\n      ContainerDefinitions", "variables": [{"required": "No", "type": "Integer", "name": "Cpu", "name_underscore": "cpu"}, {"required": "No", "type": "Boolean", "name": "Essential", "name_underscore": "essential"}, {"required": "Yes", "type": "String", "name": "Image", "name_underscore": "image"}, {"required": "Yes", "type": "Integer", "name": "Memory", "name_underscore": "memory"}, {"required": "Yes", "type": "String", "name": "Name", "name_underscore": "name"}], "mixins": [], "ruby_class_name": "EC2ContainerServiceTaskDefinitionContainerDefinitions", "ruby_class_name_underscore": "ec2_container_service_taskdefinition_containerdefinitions", "ruby_comment_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions", "list_variables": [{"required": "No", "type": "List of strings", "name": "Command", "name_underscore": "command"}, {"required": "No", "type": "List of strings", "name": "EntryPoint", "name_underscore": "entry_point"}, {"required": "No", "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions Environment", "name": "Environment", "name_underscore": "environment"}, {"required": "No", "type": "List of strings", "name": "Links", "name_underscore": "links"}, {"required": "No", "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions MountPoints", "name": "MountPoints", "name_underscore": "mount_points"}, {"required": "No", "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions PortMappings", "name": "PortMappings", "name_underscore": "port_mappings"}, {"required": "No", "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions VolumesFrom", "name": "VolumesFrom", "name_underscore": "volumes_from"}]}
+{
+    "list_variables": [
+        {
+            "name": "Command",
+            "name_underscore": "command",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "EntryPoint",
+            "name_underscore": "entry_point",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "Environment",
+            "name_underscore": "environment",
+            "required": "No",
+            "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions Environment"
+        },
+        {
+            "name": "Links",
+            "name_underscore": "links",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "MountPoints",
+            "name_underscore": "mount_points",
+            "required": "No",
+            "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions MountPoints"
+        },
+        {
+            "name": "PortMappings",
+            "name_underscore": "port_mappings",
+            "required": "No",
+            "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions PortMappings"
+        },
+        {
+            "name": "VolumesFrom",
+            "name_underscore": "volumes_from",
+            "required": "No",
+            "type": "List of Amazon EC2 Container Service\n      TaskDefinition ContainerDefinitions VolumesFrom"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions",
+    "ruby_class_name": "EC2ContainerServiceTaskDefinitionContainerDefinitions",
+    "ruby_class_name_underscore": "ec2_container_service_taskdefinition_containerdefinitions",
+    "ruby_comment_name": "Amazon_EC2_Container_Service_TaskDefinition_ContainerDefinitions",
+    "topic_title": "Amazon EC2 Container Service TaskDefinition\n      ContainerDefinitions",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ecs-taskdefinition-containerdefinitions.html",
+    "variables": [
+        {
+            "name": "Cpu",
+            "name_underscore": "cpu",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "Essential",
+            "name_underscore": "essential",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "Image",
+            "name_underscore": "image",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Memory",
+            "name_underscore": "memory",
+            "required": "Yes",
+            "type": "Integer"
+        },
+        {
+            "name": "Name",
+            "name_underscore": "name",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

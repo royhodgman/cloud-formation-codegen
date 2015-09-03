@@ -1,1 +1,24 @@
-{"resource_name": "EC2_Network_Interface_Attachment", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-network-interface-attachment.html", "topic_title": "EC2 Network Interface Attachment", "variables": [{"required": "Yes", "type": "String", "name": "AttachmentID", "name_underscore": "attachment_id"}, {"required": "Yes", "type": "String", "name": "InstanceID", "name_underscore": "instance_id"}], "mixins": [], "ruby_class_name": "NetworkInterfaceAttachment", "ruby_class_name_underscore": "network_interface_attachment", "ruby_comment_name": "EC2_Network_Interface_Attachment", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "EC2_Network_Interface_Attachment",
+    "ruby_class_name": "NetworkInterfaceAttachment",
+    "ruby_class_name_underscore": "network_interface_attachment",
+    "ruby_comment_name": "EC2_Network_Interface_Attachment",
+    "topic_title": "EC2 Network Interface Attachment",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-network-interface-attachment.html",
+    "variables": [
+        {
+            "name": "AttachmentID",
+            "name_underscore": "attachment_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "InstanceID",
+            "name_underscore": "instance_id",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

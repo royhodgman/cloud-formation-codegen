@@ -1,1 +1,55 @@
-{"resource_name": "AWS_DataPipeline_Pipeline", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html", "topic_title": "AWS::DataPipeline::Pipeline", "variables": [{"required": "No", "type": "Boolean", "name": "Activate", "name_underscore": "activate"}, {"required": "No", "type": "String", "name": "Description", "name_underscore": "description"}, {"required": "Yes", "type": "String", "name": "Name", "name_underscore": "name"}, {"required": "No", "type": "AWS Data Pipeline Pipeline\n      ParameterObjects", "name": "ParameterObjects", "name_underscore": "parameter_objects"}, {"required": "No", "type": "AWS Data Pipeline Pipeline\n      ParameterValues", "name": "ParameterValues", "name_underscore": "parameter_values"}, {"required": "No", "type": "AWS Data Pipeline Pipeline\n      PipelineTags", "name": "PipelineTags", "name_underscore": "pipeline_tags"}], "mixins": [], "ruby_class_name": "DataPipelinePipeline", "ruby_class_name_underscore": "datapipeline_pipeline", "ruby_comment_name": "AWS_DataPipeline_Pipeline", "list_variables": [{"required": "Yes", "type": "A list of AWS Data Pipeline\n      PipelineObjects", "name": "PipelineObjects", "name_underscore": "pipeline_objects"}]}
+{
+    "list_variables": [
+        {
+            "name": "PipelineObjects",
+            "name_underscore": "pipeline_objects",
+            "required": "Yes",
+            "type": "A list of AWS Data Pipeline\n      PipelineObjects"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_DataPipeline_Pipeline",
+    "ruby_class_name": "DataPipelinePipeline",
+    "ruby_class_name_underscore": "datapipeline_pipeline",
+    "ruby_comment_name": "AWS_DataPipeline_Pipeline",
+    "topic_title": "AWS::DataPipeline::Pipeline",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html",
+    "variables": [
+        {
+            "name": "Activate",
+            "name_underscore": "activate",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "Description",
+            "name_underscore": "description",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Name",
+            "name_underscore": "name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "ParameterObjects",
+            "name_underscore": "parameter_objects",
+            "required": "No",
+            "type": "AWS Data Pipeline Pipeline\n      ParameterObjects"
+        },
+        {
+            "name": "ParameterValues",
+            "name_underscore": "parameter_values",
+            "required": "No",
+            "type": "AWS Data Pipeline Pipeline\n      ParameterValues"
+        },
+        {
+            "name": "PipelineTags",
+            "name_underscore": "pipeline_tags",
+            "required": "No",
+            "type": "AWS Data Pipeline Pipeline\n      PipelineTags"
+        }
+    ]
+}

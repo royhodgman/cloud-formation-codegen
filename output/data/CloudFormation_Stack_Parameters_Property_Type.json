@@ -1,1 +1,11 @@
-{"resource_name": "CloudFormation_Stack_Parameters_Property_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack-parameters.html", "topic_title": "CloudFormation Stack Parameters Property Type", "variables": [], "mixins": [], "ruby_class_name": "StackParametersPropertyType", "ruby_class_name_underscore": "stack_parameters_property_type", "ruby_comment_name": "CloudFormation_Stack_Parameters_Property_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudFormation_Stack_Parameters_Property_Type",
+    "ruby_class_name": "StackParametersPropertyType",
+    "ruby_class_name_underscore": "stack_parameters_property_type",
+    "ruby_comment_name": "CloudFormation_Stack_Parameters_Property_Type",
+    "topic_title": "CloudFormation Stack Parameters Property Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack-parameters.html",
+    "variables": []
+}

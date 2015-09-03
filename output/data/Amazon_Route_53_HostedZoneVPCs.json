@@ -1,1 +1,24 @@
-{"resource_name": "Amazon_Route_53_HostedZoneVPCs", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone-hostedzonevpcs.html", "topic_title": "Amazon Route\u00a053 HostedZoneVPCs", "variables": [{"required": "Yes", "type": "String", "name": "VPCId", "name_underscore": "vpc_id"}, {"required": "Yes", "type": "String", "name": "VPCRegion", "name_underscore": "vpc_region"}], "mixins": [], "ruby_class_name": "Route53HostedZoneVPCs", "ruby_class_name_underscore": "route_53_hostedzonevpcs", "ruby_comment_name": "Amazon_Route_53_HostedZoneVPCs", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_Route_53_HostedZoneVPCs",
+    "ruby_class_name": "Route53HostedZoneVPCs",
+    "ruby_class_name_underscore": "route_53_hostedzonevpcs",
+    "ruby_comment_name": "Amazon_Route_53_HostedZoneVPCs",
+    "topic_title": "Amazon Route\u00a053 HostedZoneVPCs",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone-hostedzonevpcs.html",
+    "variables": [
+        {
+            "name": "VPCId",
+            "name_underscore": "vpc_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "VPCRegion",
+            "name_underscore": "vpc_region",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

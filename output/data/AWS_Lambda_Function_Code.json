@@ -1,1 +1,66 @@
-{"resource_name": "AWS_Lambda_Function_Code", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-lambda-function-code.html", "topic_title": "AWS Lambda Function Code", "variables": [{"required": "Conditional You must specify an S3 bucket location (using the\n              S3Bucket and S3Key properties) or the ZipFile\n            property.", "type": "String", "name": "S3Bucket", "name_underscore": "s3_bucket"}, {"required": "Conditional You must specify an S3 bucket location (using the\n              S3Bucket and S3Key properties) or the ZipFile\n            property.", "type": "String", "name": "S3Key", "name_underscore": "s3_key"}, {"required": "No", "type": "String", "name": "S3ObjectVersion", "name_underscore": "s3_object_version"}, {"required": "Conditional. You must specify a bucket location (the\n              S3Bucket and S3Key properties) or the ZipFile\n            property.", "type": "String", "name": "ZipFile", "name_underscore": "zip_file"}, {"required": "No", "type": "String", "name": "event", "name_underscore": "event"}, {"required": "No", "type": "String", "name": "context", "name_underscore": "context"}, {"required": "No", "type": "String", "name": "responseStatus", "name_underscore": "response_status"}, {"required": "No", "type": "String", "name": "responseData", "name_underscore": "response_data"}, {"required": "No", "type": "String", "name": "physicalResourceId", "name_underscore": "physical_resource_id"}], "mixins": [], "ruby_class_name": "LambdaFunctionCode", "ruby_class_name_underscore": "lambda_function_code", "ruby_comment_name": "AWS_Lambda_Function_Code", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_Lambda_Function_Code",
+    "ruby_class_name": "LambdaFunctionCode",
+    "ruby_class_name_underscore": "lambda_function_code",
+    "ruby_comment_name": "AWS_Lambda_Function_Code",
+    "topic_title": "AWS Lambda Function Code",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-lambda-function-code.html",
+    "variables": [
+        {
+            "name": "S3Bucket",
+            "name_underscore": "s3_bucket",
+            "required": "Conditional You must specify an S3 bucket location (using the\n              S3Bucket and S3Key properties) or the ZipFile\n            property.",
+            "type": "String"
+        },
+        {
+            "name": "S3Key",
+            "name_underscore": "s3_key",
+            "required": "Conditional You must specify an S3 bucket location (using the\n              S3Bucket and S3Key properties) or the ZipFile\n            property.",
+            "type": "String"
+        },
+        {
+            "name": "S3ObjectVersion",
+            "name_underscore": "s3_object_version",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "ZipFile",
+            "name_underscore": "zip_file",
+            "required": "Conditional. You must specify a bucket location (the\n              S3Bucket and S3Key properties) or the ZipFile\n            property.",
+            "type": "String"
+        },
+        {
+            "name": "event",
+            "name_underscore": "event",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "context",
+            "name_underscore": "context",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "responseStatus",
+            "name_underscore": "response_status",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "responseData",
+            "name_underscore": "response_data",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "physicalResourceId",
+            "name_underscore": "physical_resource_id",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

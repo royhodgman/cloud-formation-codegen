@@ -1,1 +1,31 @@
-{"resource_name": "AWS_Logs_MetricFilter", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-metricfilter.html", "topic_title": "AWS::Logs::MetricFilter", "variables": [{"required": "Yes", "type": "String", "name": "LogGroupName", "name_underscore": "log_group_name"}], "mixins": [], "ruby_class_name": "LogsMetricFilter", "ruby_class_name_underscore": "logs_metricfilter", "ruby_comment_name": "AWS_Logs_MetricFilter", "list_variables": [{"required": "Yes", "type": "List of strings", "name": "FilterPattern", "name_underscore": "filter_pattern"}, {"required": "Yes", "type": "A list of CloudWatch Logs MetricFilter\n      MetricTransformation Property", "name": "MetricTransformations", "name_underscore": "metric_transformations"}]}
+{
+    "list_variables": [
+        {
+            "name": "FilterPattern",
+            "name_underscore": "filter_pattern",
+            "required": "Yes",
+            "type": "List of strings"
+        },
+        {
+            "name": "MetricTransformations",
+            "name_underscore": "metric_transformations",
+            "required": "Yes",
+            "type": "A list of CloudWatch Logs MetricFilter\n      MetricTransformation Property"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_Logs_MetricFilter",
+    "ruby_class_name": "LogsMetricFilter",
+    "ruby_class_name_underscore": "logs_metricfilter",
+    "ruby_comment_name": "AWS_Logs_MetricFilter",
+    "topic_title": "AWS::Logs::MetricFilter",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-metricfilter.html",
+    "variables": [
+        {
+            "name": "LogGroupName",
+            "name_underscore": "log_group_name",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

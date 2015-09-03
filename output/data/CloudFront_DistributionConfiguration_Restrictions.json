@@ -1,1 +1,18 @@
-{"resource_name": "CloudFront_DistributionConfiguration_Restrictions", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig-restrictions.html", "topic_title": "CloudFront\n      DistributionConfiguration Restrictions", "variables": [{"required": "Yes", "type": "CloudFront\n      DistributionConfig Restrictions GeoRestriction", "name": "GeoRestriction", "name_underscore": "geo_restriction"}], "mixins": [], "ruby_class_name": "DistributionConfigurationRestrictions", "ruby_class_name_underscore": "distributionconfiguration_restrictions", "ruby_comment_name": "CloudFront_DistributionConfiguration_Restrictions", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudFront_DistributionConfiguration_Restrictions",
+    "ruby_class_name": "DistributionConfigurationRestrictions",
+    "ruby_class_name_underscore": "distributionconfiguration_restrictions",
+    "ruby_comment_name": "CloudFront_DistributionConfiguration_Restrictions",
+    "topic_title": "CloudFront\n      DistributionConfiguration Restrictions",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-distributionconfig-restrictions.html",
+    "variables": [
+        {
+            "name": "GeoRestriction",
+            "name_underscore": "geo_restriction",
+            "required": "Yes",
+            "type": "CloudFront\n      DistributionConfig Restrictions GeoRestriction"
+        }
+    ]
+}

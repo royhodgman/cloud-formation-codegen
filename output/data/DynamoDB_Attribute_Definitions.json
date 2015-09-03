@@ -1,1 +1,24 @@
-{"resource_name": "DynamoDB_Attribute_Definitions", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-dynamodb-attributedef.html", "topic_title": "DynamoDB Attribute Definitions", "variables": [{"required": "Yes", "type": "String", "name": "AttributeName", "name_underscore": "attribute_name"}, {"required": "Yes", "type": "String", "name": "AttributeType", "name_underscore": "attribute_type"}], "mixins": [], "ruby_class_name": "AttributeDefinitions", "ruby_class_name_underscore": "attribute_definitions", "ruby_comment_name": "DynamoDB_Attribute_Definitions", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "DynamoDB_Attribute_Definitions",
+    "ruby_class_name": "AttributeDefinitions",
+    "ruby_class_name_underscore": "attribute_definitions",
+    "ruby_comment_name": "DynamoDB_Attribute_Definitions",
+    "topic_title": "DynamoDB Attribute Definitions",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-dynamodb-attributedef.html",
+    "variables": [
+        {
+            "name": "AttributeName",
+            "name_underscore": "attribute_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "AttributeType",
+            "name_underscore": "attribute_type",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

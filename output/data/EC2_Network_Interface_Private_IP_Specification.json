@@ -1,1 +1,24 @@
-{"resource_name": "EC2_Network_Interface_Private_IP_Specification", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-network-interface-privateipspec.html", "topic_title": "EC2 Network Interface\n      Private IP Specification", "variables": [{"required": "Yes", "type": "String", "name": "PrivateIpAddress", "name_underscore": "private_ip_address"}, {"required": "Yes", "type": "Boolean", "name": "Primary", "name_underscore": "primary"}], "mixins": [], "ruby_class_name": "NetworkInterfacePrivateIPSpecification", "ruby_class_name_underscore": "network_interface_private_ip_specification", "ruby_comment_name": "EC2_Network_Interface_Private_IP_Specification", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "EC2_Network_Interface_Private_IP_Specification",
+    "ruby_class_name": "NetworkInterfacePrivateIPSpecification",
+    "ruby_class_name_underscore": "network_interface_private_ip_specification",
+    "ruby_comment_name": "EC2_Network_Interface_Private_IP_Specification",
+    "topic_title": "EC2 Network Interface\n      Private IP Specification",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-network-interface-privateipspec.html",
+    "variables": [
+        {
+            "name": "PrivateIpAddress",
+            "name_underscore": "private_ip_address",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Primary",
+            "name_underscore": "primary",
+            "required": "Yes",
+            "type": "Boolean"
+        }
+    ]
+}

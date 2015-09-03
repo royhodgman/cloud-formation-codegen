@@ -1,1 +1,31 @@
-{"resource_name": "CloudFront_ForwardedValues", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-forwardedvalues.html", "topic_title": "CloudFront ForwardedValues", "variables": [{"required": "No", "type": "CloudFront ForwardedValues\n      Cookies", "name": "Cookies", "name_underscore": "cookies"}, {"required": "Yes", "type": "Boolean", "name": "QueryString", "name_underscore": "query_string"}], "mixins": [], "ruby_class_name": "ForwardedValues", "ruby_class_name_underscore": "forwardedvalues", "ruby_comment_name": "CloudFront_ForwardedValues", "list_variables": [{"required": "No", "type": "List of strings", "name": "Headers", "name_underscore": "headers"}]}
+{
+    "list_variables": [
+        {
+            "name": "Headers",
+            "name_underscore": "headers",
+            "required": "No",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "CloudFront_ForwardedValues",
+    "ruby_class_name": "ForwardedValues",
+    "ruby_class_name_underscore": "forwardedvalues",
+    "ruby_comment_name": "CloudFront_ForwardedValues",
+    "topic_title": "CloudFront ForwardedValues",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-forwardedvalues.html",
+    "variables": [
+        {
+            "name": "Cookies",
+            "name_underscore": "cookies",
+            "required": "No",
+            "type": "CloudFront ForwardedValues\n      Cookies"
+        },
+        {
+            "name": "QueryString",
+            "name_underscore": "query_string",
+            "required": "Yes",
+            "type": "Boolean"
+        }
+    ]
+}

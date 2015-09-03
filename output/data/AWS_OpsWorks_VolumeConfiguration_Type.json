@@ -1,1 +1,48 @@
-{"resource_name": "AWS_OpsWorks_VolumeConfiguration_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-volumeconfig.html", "topic_title": "AWS OpsWorks VolumeConfiguration\n      Type", "variables": [{"required": "Conditional. If you specify io1 for the volume type,\n                  you must specify this property.", "type": "Integer", "name": "Iops", "name_underscore": "iops"}, {"required": "Yes", "type": "String", "name": "MountPoint", "name_underscore": "mount_point"}, {"required": "Yes", "type": "Integer", "name": "NumberOfDisks", "name_underscore": "number_of_disks"}, {"required": "No", "type": "Integer", "name": "RaidLevel", "name_underscore": "raid_level"}, {"required": "Yes", "type": "Integer", "name": "Size", "name_underscore": "size"}, {"required": "No", "type": "String", "name": "VolumeType", "name_underscore": "volume_type"}], "mixins": [], "ruby_class_name": "OpsWorksVolumeConfigurationType", "ruby_class_name_underscore": "opsworks_volumeconfiguration_type", "ruby_comment_name": "AWS_OpsWorks_VolumeConfiguration_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_OpsWorks_VolumeConfiguration_Type",
+    "ruby_class_name": "OpsWorksVolumeConfigurationType",
+    "ruby_class_name_underscore": "opsworks_volumeconfiguration_type",
+    "ruby_comment_name": "AWS_OpsWorks_VolumeConfiguration_Type",
+    "topic_title": "AWS OpsWorks VolumeConfiguration\n      Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-volumeconfig.html",
+    "variables": [
+        {
+            "name": "Iops",
+            "name_underscore": "iops",
+            "required": "Conditional. If you specify io1 for the volume type,\n                  you must specify this property.",
+            "type": "Integer"
+        },
+        {
+            "name": "MountPoint",
+            "name_underscore": "mount_point",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "NumberOfDisks",
+            "name_underscore": "number_of_disks",
+            "required": "Yes",
+            "type": "Integer"
+        },
+        {
+            "name": "RaidLevel",
+            "name_underscore": "raid_level",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "Size",
+            "name_underscore": "size",
+            "required": "Yes",
+            "type": "Integer"
+        },
+        {
+            "name": "VolumeType",
+            "name_underscore": "volume_type",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

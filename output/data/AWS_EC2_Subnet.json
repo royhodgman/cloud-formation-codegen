@@ -1,1 +1,50 @@
-{"resource_name": "AWS_EC2_Subnet", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet.html", "topic_title": "AWS::EC2::Subnet", "variables": [{"required": "No", "type": "String", "name": "AvailabilityZone", "name_underscore": "availability_zone"}, {"required": "Yes", "type": "String", "name": "CidrBlock", "name_underscore": "cidr_block"}, {"required": "No", "type": "Boolean", "name": "MapPublicIpOnLaunch", "name_underscore": "map_public_ip_on_launch"}, {"required": "No", "type": "AWS CloudFormation Resource Tags", "name": "Tags", "name_underscore": "tags"}, {"required": "Yes", "type": "Ref ID", "name": "VpcId", "name_underscore": "vpc_id"}, {"required": "No", "type": "String", "name": "AvailabilityZone", "name_underscore": "availability_zone"}], "mixins": ["Taggable"], "ruby_class_name": "EC2Subnet", "ruby_class_name_underscore": "ec2_subnet", "ruby_comment_name": "AWS_EC2_Subnet", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [
+        "Taggable"
+    ],
+    "resource_name": "AWS_EC2_Subnet",
+    "ruby_class_name": "EC2Subnet",
+    "ruby_class_name_underscore": "ec2_subnet",
+    "ruby_comment_name": "AWS_EC2_Subnet",
+    "topic_title": "AWS::EC2::Subnet",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet.html",
+    "variables": [
+        {
+            "name": "AvailabilityZone",
+            "name_underscore": "availability_zone",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "CidrBlock",
+            "name_underscore": "cidr_block",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "MapPublicIpOnLaunch",
+            "name_underscore": "map_public_ip_on_launch",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "Tags",
+            "name_underscore": "tags",
+            "required": "No",
+            "type": "AWS CloudFormation Resource Tags"
+        },
+        {
+            "name": "VpcId",
+            "name_underscore": "vpc_id",
+            "required": "Yes",
+            "type": "Ref ID"
+        },
+        {
+            "name": "AvailabilityZone",
+            "name_underscore": "availability_zone",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

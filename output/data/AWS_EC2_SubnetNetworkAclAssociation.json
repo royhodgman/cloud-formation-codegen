@@ -1,1 +1,30 @@
-{"resource_name": "AWS_EC2_SubnetNetworkAclAssociation", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet-network-acl-assoc.html", "topic_title": "AWS::EC2::SubnetNetworkAclAssociation", "variables": [{"required": "Yes", "type": "String", "name": "SubnetId", "name_underscore": "subnet_id"}, {"required": "Yes", "type": "String", "name": "NetworkAclId", "name_underscore": "network_acl_id"}, {"required": "No", "type": "String", "name": "AssociationId", "name_underscore": "association_id"}], "mixins": [], "ruby_class_name": "EC2SubnetNetworkAclAssociation", "ruby_class_name_underscore": "ec2_subnetnetworkaclassociation", "ruby_comment_name": "AWS_EC2_SubnetNetworkAclAssociation", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_EC2_SubnetNetworkAclAssociation",
+    "ruby_class_name": "EC2SubnetNetworkAclAssociation",
+    "ruby_class_name_underscore": "ec2_subnetnetworkaclassociation",
+    "ruby_comment_name": "AWS_EC2_SubnetNetworkAclAssociation",
+    "topic_title": "AWS::EC2::SubnetNetworkAclAssociation",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet-network-acl-assoc.html",
+    "variables": [
+        {
+            "name": "SubnetId",
+            "name_underscore": "subnet_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "NetworkAclId",
+            "name_underscore": "network_acl_id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "AssociationId",
+            "name_underscore": "association_id",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

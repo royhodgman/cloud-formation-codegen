@@ -1,1 +1,49 @@
-{"resource_name": "AWS_IAM_ManagedPolicy", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html", "topic_title": "AWS::IAM::ManagedPolicy", "variables": [{"required": "No", "type": "String", "name": "Description", "name_underscore": "description"}, {"required": "No", "type": "String", "name": "Path", "name_underscore": "path"}, {"required": "Yes", "type": "JSON object", "name": "PolicyDocument", "name_underscore": "policy_document"}], "mixins": [], "ruby_class_name": "IAMManagedPolicy", "ruby_class_name_underscore": "iam_managedpolicy", "ruby_comment_name": "AWS_IAM_ManagedPolicy", "list_variables": [{"required": "No", "type": "List of strings", "name": "Groups", "name_underscore": "groups"}, {"required": "No", "type": "List of strings", "name": "Roles", "name_underscore": "roles"}, {"required": "No", "type": "List of strings", "name": "Users", "name_underscore": "users"}]}
+{
+    "list_variables": [
+        {
+            "name": "Groups",
+            "name_underscore": "groups",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "Roles",
+            "name_underscore": "roles",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "Users",
+            "name_underscore": "users",
+            "required": "No",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_IAM_ManagedPolicy",
+    "ruby_class_name": "IAMManagedPolicy",
+    "ruby_class_name_underscore": "iam_managedpolicy",
+    "ruby_comment_name": "AWS_IAM_ManagedPolicy",
+    "topic_title": "AWS::IAM::ManagedPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html",
+    "variables": [
+        {
+            "name": "Description",
+            "name_underscore": "description",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Path",
+            "name_underscore": "path",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "PolicyDocument",
+            "name_underscore": "policy_document",
+            "required": "Yes",
+            "type": "JSON object"
+        }
+    ]
+}

@@ -1,1 +1,18 @@
-{"resource_name": "Amazon_S3_Cors_Configuration", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-cors.html", "topic_title": "Amazon S3 Cors Configuration", "variables": [{"required": "Yes", "type": "Amazon S3 Cors Configuration Rule", "name": "CorsRules", "name_underscore": "cors_rules"}], "mixins": [], "ruby_class_name": "S3CorsConfiguration", "ruby_class_name_underscore": "s3_cors_configuration", "ruby_comment_name": "Amazon_S3_Cors_Configuration", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_S3_Cors_Configuration",
+    "ruby_class_name": "S3CorsConfiguration",
+    "ruby_class_name_underscore": "s3_cors_configuration",
+    "ruby_comment_name": "Amazon_S3_Cors_Configuration",
+    "topic_title": "Amazon S3 Cors Configuration",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-cors.html",
+    "variables": [
+        {
+            "name": "CorsRules",
+            "name_underscore": "cors_rules",
+            "required": "Yes",
+            "type": "Amazon S3 Cors Configuration Rule"
+        }
+    ]
+}

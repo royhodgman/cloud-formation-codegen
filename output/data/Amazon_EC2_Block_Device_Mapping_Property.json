@@ -1,1 +1,36 @@
-{"resource_name": "Amazon_EC2_Block_Device_Mapping_Property", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-blockdev-mapping.html", "topic_title": "Amazon EC2 Block Device Mapping Property", "variables": [{"required": "Yes", "type": "String", "name": "DeviceName", "name_underscore": "device_name"}, {"required": "Conditional You can specify either VirtualName or\n                     Ebs, but not both.", "type": "Amazon Elastic Block Store Block Device Property.", "name": "Ebs", "name_underscore": "ebs"}, {"required": "No", "type": "an empty map: {}.", "name": "NoDevice", "name_underscore": "no_device"}, {"required": "Conditional You can specify either VirtualName or\n                     Ebs, but not both.", "type": "String", "name": "VirtualName", "name_underscore": "virtual_name"}], "mixins": [], "ruby_class_name": "EC2BlockDeviceMappingProperty", "ruby_class_name_underscore": "ec2_block_device_mapping_property", "ruby_comment_name": "Amazon_EC2_Block_Device_Mapping_Property", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_EC2_Block_Device_Mapping_Property",
+    "ruby_class_name": "EC2BlockDeviceMappingProperty",
+    "ruby_class_name_underscore": "ec2_block_device_mapping_property",
+    "ruby_comment_name": "Amazon_EC2_Block_Device_Mapping_Property",
+    "topic_title": "Amazon EC2 Block Device Mapping Property",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-blockdev-mapping.html",
+    "variables": [
+        {
+            "name": "DeviceName",
+            "name_underscore": "device_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Ebs",
+            "name_underscore": "ebs",
+            "required": "Conditional You can specify either VirtualName or\n                     Ebs, but not both.",
+            "type": "Amazon Elastic Block Store Block Device Property."
+        },
+        {
+            "name": "NoDevice",
+            "name_underscore": "no_device",
+            "required": "No",
+            "type": "an empty map: {}."
+        },
+        {
+            "name": "VirtualName",
+            "name_underscore": "virtual_name",
+            "required": "Conditional You can specify either VirtualName or\n                     Ebs, but not both.",
+            "type": "String"
+        }
+    ]
+}

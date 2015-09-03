@@ -1,1 +1,25 @@
-{"resource_name": "Auto_Scaling_NotificationConfigurations", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-notificationconfigurations.html", "topic_title": "Auto Scaling\n      NotificationConfigurations", "variables": [{"required": "Yes", "type": "String", "name": "TopicARN", "name_underscore": "topic_arn"}], "mixins": [], "ruby_class_name": "ScalingNotificationConfigurations", "ruby_class_name_underscore": "scaling_notificationconfigurations", "ruby_comment_name": "Auto_Scaling_NotificationConfigurations", "list_variables": [{"required": "Yes", "type": "List of strings", "name": "NotificationTypes", "name_underscore": "notification_types"}]}
+{
+    "list_variables": [
+        {
+            "name": "NotificationTypes",
+            "name_underscore": "notification_types",
+            "required": "Yes",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "Auto_Scaling_NotificationConfigurations",
+    "ruby_class_name": "ScalingNotificationConfigurations",
+    "ruby_class_name_underscore": "scaling_notificationconfigurations",
+    "ruby_comment_name": "Auto_Scaling_NotificationConfigurations",
+    "topic_title": "Auto Scaling\n      NotificationConfigurations",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-notificationconfigurations.html",
+    "variables": [
+        {
+            "name": "TopicARN",
+            "name_underscore": "topic_arn",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

@@ -1,1 +1,169 @@
-{"resource_name": "AWS_Redshift_Cluster", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html", "topic_title": "AWS::Redshift::Cluster", "variables": [{"required": "No", "type": "Boolean", "name": "AllowVersionUpgrade", "name_underscore": "allow_version_upgrade"}, {"required": "No", "type": "Integer", "name": "AutomatedSnapshotRetentionPeriod", "name_underscore": "automated_snapshot_retention_period"}, {"required": "No", "type": "String", "name": "AvailabilityZone", "name_underscore": "availability_zone"}, {"required": "No", "type": "String", "name": "ClusterParameterGroupName", "name_underscore": "cluster_parameter_group_name"}, {"required": "No", "type": "String", "name": "ClusterSubnetGroupName", "name_underscore": "cluster_subnet_group_name"}, {"required": "Yes", "type": "String", "name": "ClusterType", "name_underscore": "cluster_type"}, {"required": "No", "type": "String", "name": "ClusterVersion", "name_underscore": "cluster_version"}, {"required": "Yes", "type": "String", "name": "DBName", "name_underscore": "db_name"}, {"required": "No", "type": "String", "name": "ElasticIp", "name_underscore": "elastic_ip"}, {"required": "No", "type": "Boolean", "name": "Encrypted", "name_underscore": "encrypted"}, {"required": "No", "type": "String", "name": "HsmClientCertificateIdentifier", "name_underscore": "hsm_client_certificate_identifier"}, {"required": "No", "type": "String", "name": "HsmConfigurationIdentifier", "name_underscore": "hsm_configuration_identifier"}, {"required": "Yes", "type": "String", "name": "MasterUsername", "name_underscore": "master_username"}, {"required": "Yes", "type": "String", "name": "MasterUserPassword", "name_underscore": "master_user_password"}, {"required": "Yes", "type": "String", "name": "NodeType", "name_underscore": "node_type"}, {"required": "Conditional", "type": "Integer", "name": "NumberOfNodes", "name_underscore": "number_of_nodes"}, {"required": "No", "type": "String", "name": "OwnerAccount", "name_underscore": "owner_account"}, {"required": "No", "type": "Integer", "name": "Port", "name_underscore": "port"}, {"required": "No", "type": "String", "name": "PreferredMaintenanceWindow", "name_underscore": "preferred_maintenance_window"}, {"required": "No", "type": "Boolean", "name": "PubliclyAccessible", "name_underscore": "publicly_accessible"}, {"required": "Conditional. This property is required if your IAM policy includes\n                  a restriction on the cluster name, where the resource element specifies anything\n                  other than the wildcard character (*) for the cluster name.", "type": "String", "name": "SnapshotClusterIdentifier", "name_underscore": "snapshot_cluster_identifier"}, {"required": "Conditional. If you specified the\n                     SnapshotClusterIdentifier property, you must specify this\n                  property.", "type": "String", "name": "SnapshotIdentifier", "name_underscore": "snapshot_identifier"}, {"required": "No", "type": "String", "name": "Endpoint.Address", "name_underscore": "endpoint.address"}, {"required": "No", "type": "String", "name": "Endpoint.Port", "name_underscore": "endpoint.port"}], "mixins": [], "ruby_class_name": "RedshiftCluster", "ruby_class_name_underscore": "redshift_cluster", "ruby_comment_name": "AWS_Redshift_Cluster", "list_variables": [{"required": "No", "type": "List of strings", "name": "ClusterSecurityGroups", "name_underscore": "cluster_security_groups"}, {"required": "No", "type": "List of strings", "name": "VpcSecurityGroupIds", "name_underscore": "vpc_security_group_ids"}]}
+{
+    "list_variables": [
+        {
+            "name": "ClusterSecurityGroups",
+            "name_underscore": "cluster_security_groups",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "VpcSecurityGroupIds",
+            "name_underscore": "vpc_security_group_ids",
+            "required": "No",
+            "type": "List of strings"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_Redshift_Cluster",
+    "ruby_class_name": "RedshiftCluster",
+    "ruby_class_name_underscore": "redshift_cluster",
+    "ruby_comment_name": "AWS_Redshift_Cluster",
+    "topic_title": "AWS::Redshift::Cluster",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html",
+    "variables": [
+        {
+            "name": "AllowVersionUpgrade",
+            "name_underscore": "allow_version_upgrade",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "AutomatedSnapshotRetentionPeriod",
+            "name_underscore": "automated_snapshot_retention_period",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "AvailabilityZone",
+            "name_underscore": "availability_zone",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "ClusterParameterGroupName",
+            "name_underscore": "cluster_parameter_group_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "ClusterSubnetGroupName",
+            "name_underscore": "cluster_subnet_group_name",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "ClusterType",
+            "name_underscore": "cluster_type",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "ClusterVersion",
+            "name_underscore": "cluster_version",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "DBName",
+            "name_underscore": "db_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "ElasticIp",
+            "name_underscore": "elastic_ip",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Encrypted",
+            "name_underscore": "encrypted",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "HsmClientCertificateIdentifier",
+            "name_underscore": "hsm_client_certificate_identifier",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "HsmConfigurationIdentifier",
+            "name_underscore": "hsm_configuration_identifier",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "MasterUsername",
+            "name_underscore": "master_username",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "MasterUserPassword",
+            "name_underscore": "master_user_password",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "NodeType",
+            "name_underscore": "node_type",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "NumberOfNodes",
+            "name_underscore": "number_of_nodes",
+            "required": "Conditional",
+            "type": "Integer"
+        },
+        {
+            "name": "OwnerAccount",
+            "name_underscore": "owner_account",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Port",
+            "name_underscore": "port",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "PreferredMaintenanceWindow",
+            "name_underscore": "preferred_maintenance_window",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "PubliclyAccessible",
+            "name_underscore": "publicly_accessible",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "SnapshotClusterIdentifier",
+            "name_underscore": "snapshot_cluster_identifier",
+            "required": "Conditional. This property is required if your IAM policy includes\n                  a restriction on the cluster name, where the resource element specifies anything\n                  other than the wildcard character (*) for the cluster name.",
+            "type": "String"
+        },
+        {
+            "name": "SnapshotIdentifier",
+            "name_underscore": "snapshot_identifier",
+            "required": "Conditional. If you specified the\n                     SnapshotClusterIdentifier property, you must specify this\n                  property.",
+            "type": "String"
+        },
+        {
+            "name": "Endpoint.Address",
+            "name_underscore": "endpoint.address",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Endpoint.Port",
+            "name_underscore": "endpoint.port",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

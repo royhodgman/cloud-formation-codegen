@@ -1,1 +1,24 @@
-{"resource_name": "Amazon_Elastic_File_System_FileSystem_FileSystemTags", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-efs-filesystem-filesystemtags.html", "topic_title": "Amazon Elastic File System FileSystem\n      FileSystemTags", "variables": [{"required": "No", "type": "String", "name": "Key", "name_underscore": "key"}, {"required": "No", "type": "String", "name": "Value", "name_underscore": "value"}], "mixins": [], "ruby_class_name": "ElasticFileSystemFileSystemFileSystemTags", "ruby_class_name_underscore": "elastic_file_system_filesystem_filesystemtags", "ruby_comment_name": "Amazon_Elastic_File_System_FileSystem_FileSystemTags", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_Elastic_File_System_FileSystem_FileSystemTags",
+    "ruby_class_name": "ElasticFileSystemFileSystemFileSystemTags",
+    "ruby_class_name_underscore": "elastic_file_system_filesystem_filesystemtags",
+    "ruby_comment_name": "Amazon_Elastic_File_System_FileSystem_FileSystemTags",
+    "topic_title": "Amazon Elastic File System FileSystem\n      FileSystemTags",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-efs-filesystem-filesystemtags.html",
+    "variables": [
+        {
+            "name": "Key",
+            "name_underscore": "key",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Value",
+            "name_underscore": "value",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

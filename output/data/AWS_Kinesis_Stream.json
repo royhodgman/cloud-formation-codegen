@@ -1,1 +1,18 @@
-{"resource_name": "AWS_Kinesis_Stream", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html", "topic_title": "AWS::Kinesis::Stream", "variables": [{"required": "Yes", "type": "Integer", "name": "ShardCount", "name_underscore": "shard_count"}], "mixins": [], "ruby_class_name": "KinesisStream", "ruby_class_name_underscore": "kinesis_stream", "ruby_comment_name": "AWS_Kinesis_Stream", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_Kinesis_Stream",
+    "ruby_class_name": "KinesisStream",
+    "ruby_class_name_underscore": "kinesis_stream",
+    "ruby_comment_name": "AWS_Kinesis_Stream",
+    "topic_title": "AWS::Kinesis::Stream",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html",
+    "variables": [
+        {
+            "name": "ShardCount",
+            "name_underscore": "shard_count",
+            "required": "Yes",
+            "type": "Integer"
+        }
+    ]
+}

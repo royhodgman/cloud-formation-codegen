@@ -1,1 +1,49 @@
-{"resource_name": "AWS_IAM_User", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html", "topic_title": "AWS::IAM::User", "variables": [{"required": "No", "type": "IAM User LoginProfile", "name": "LoginProfile", "name_underscore": "login_profile"}, {"required": "No", "type": "String", "name": "Path", "name_underscore": "path"}, {"required": "No", "type": "String", "name": "Arn", "name_underscore": "arn"}], "mixins": [], "ruby_class_name": "IAMUser", "ruby_class_name_underscore": "iam_user", "ruby_comment_name": "AWS_IAM_User", "list_variables": [{"required": "No", "type": "List of strings", "name": "Groups", "name_underscore": "groups"}, {"required": "No", "type": "List of strings", "name": "ManagedPolicyArns", "name_underscore": "managed_policy_arns"}, {"required": "No", "type": "List of IAM Policies", "name": "Policies", "name_underscore": "policies"}]}
+{
+    "list_variables": [
+        {
+            "name": "Groups",
+            "name_underscore": "groups",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "ManagedPolicyArns",
+            "name_underscore": "managed_policy_arns",
+            "required": "No",
+            "type": "List of strings"
+        },
+        {
+            "name": "Policies",
+            "name_underscore": "policies",
+            "required": "No",
+            "type": "List of IAM Policies"
+        }
+    ],
+    "mixins": [],
+    "resource_name": "AWS_IAM_User",
+    "ruby_class_name": "IAMUser",
+    "ruby_class_name_underscore": "iam_user",
+    "ruby_comment_name": "AWS_IAM_User",
+    "topic_title": "AWS::IAM::User",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html",
+    "variables": [
+        {
+            "name": "LoginProfile",
+            "name_underscore": "login_profile",
+            "required": "No",
+            "type": "IAM User LoginProfile"
+        },
+        {
+            "name": "Path",
+            "name_underscore": "path",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Arn",
+            "name_underscore": "arn",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

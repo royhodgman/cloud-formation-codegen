@@ -1,1 +1,30 @@
-{"resource_name": "AWS_OpsWorks_LoadBasedAutoScaling_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-loadbasedautoscaling.html", "topic_title": "AWS OpsWorks LoadBasedAutoScaling\n      Type", "variables": [{"required": "No", "type": "AWS OpsWorks\n      AutoScalingThresholds Type", "name": "DownScaling", "name_underscore": "down_scaling"}, {"required": "No", "type": "Boolean", "name": "Enable", "name_underscore": "enable"}, {"required": "No", "type": "AWS OpsWorks\n      AutoScalingThresholds Type", "name": "UpScaling", "name_underscore": "up_scaling"}], "mixins": [], "ruby_class_name": "OpsWorksLoadBasedAutoScalingType", "ruby_class_name_underscore": "opsworks_loadbasedautoscaling_type", "ruby_comment_name": "AWS_OpsWorks_LoadBasedAutoScaling_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_OpsWorks_LoadBasedAutoScaling_Type",
+    "ruby_class_name": "OpsWorksLoadBasedAutoScalingType",
+    "ruby_class_name_underscore": "opsworks_loadbasedautoscaling_type",
+    "ruby_comment_name": "AWS_OpsWorks_LoadBasedAutoScaling_Type",
+    "topic_title": "AWS OpsWorks LoadBasedAutoScaling\n      Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-opsworks-layer-loadbasedautoscaling.html",
+    "variables": [
+        {
+            "name": "DownScaling",
+            "name_underscore": "down_scaling",
+            "required": "No",
+            "type": "AWS OpsWorks\n      AutoScalingThresholds Type"
+        },
+        {
+            "name": "Enable",
+            "name_underscore": "enable",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "UpScaling",
+            "name_underscore": "up_scaling",
+            "required": "No",
+            "type": "AWS OpsWorks\n      AutoScalingThresholds Type"
+        }
+    ]
+}

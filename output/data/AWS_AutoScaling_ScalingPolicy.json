@@ -1,1 +1,42 @@
-{"resource_name": "AWS_AutoScaling_ScalingPolicy", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html", "topic_title": "AWS::AutoScaling::ScalingPolicy", "variables": [{"required": "Yes", "type": "String", "name": "AdjustmentType", "name_underscore": "adjustment_type"}, {"required": "Yes", "type": "String", "name": "AutoScalingGroupName", "name_underscore": "auto_scaling_group_name"}, {"required": "No", "type": "String", "name": "Cooldown", "name_underscore": "cooldown"}, {"required": "No", "type": "Integer", "name": "MinAdjustmentStep", "name_underscore": "min_adjustment_step"}, {"required": "Yes", "type": "String", "name": "ScalingAdjustment", "name_underscore": "scaling_adjustment"}], "mixins": [], "ruby_class_name": "AutoScalingScalingPolicy", "ruby_class_name_underscore": "autoscaling_scalingpolicy", "ruby_comment_name": "AWS_AutoScaling_ScalingPolicy", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_AutoScaling_ScalingPolicy",
+    "ruby_class_name": "AutoScalingScalingPolicy",
+    "ruby_class_name_underscore": "autoscaling_scalingpolicy",
+    "ruby_comment_name": "AWS_AutoScaling_ScalingPolicy",
+    "topic_title": "AWS::AutoScaling::ScalingPolicy",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html",
+    "variables": [
+        {
+            "name": "AdjustmentType",
+            "name_underscore": "adjustment_type",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "AutoScalingGroupName",
+            "name_underscore": "auto_scaling_group_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Cooldown",
+            "name_underscore": "cooldown",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "MinAdjustmentStep",
+            "name_underscore": "min_adjustment_step",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "ScalingAdjustment",
+            "name_underscore": "scaling_adjustment",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}

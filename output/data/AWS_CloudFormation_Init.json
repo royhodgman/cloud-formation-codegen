@@ -1,1 +1,11 @@
-{"resource_name": "AWS_CloudFormation_Init", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-init.html", "topic_title": "AWS::CloudFormation::Init", "variables": [], "mixins": [], "ruby_class_name": "CloudFormationInit", "ruby_class_name_underscore": "cloudformation_init", "ruby_comment_name": "AWS_CloudFormation_Init", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_CloudFormation_Init",
+    "ruby_class_name": "CloudFormationInit",
+    "ruby_class_name_underscore": "cloudformation_init",
+    "ruby_comment_name": "AWS_CloudFormation_Init",
+    "topic_title": "AWS::CloudFormation::Init",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-init.html",
+    "variables": []
+}

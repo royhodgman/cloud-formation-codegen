@@ -1,1 +1,30 @@
-{"resource_name": "Amazon_S3_Lifecycle_Rule_Transition", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-lifecycleconfig-rule-transition.html", "topic_title": "Amazon S3 Lifecycle Rule\n      Transition", "variables": [{"required": "Yes", "type": "String", "name": "StorageClass", "name_underscore": "storage_class"}, {"required": "Conditional", "type": "String", "name": "TransitionDate", "name_underscore": "transition_date"}, {"required": "Conditional", "type": "Integer", "name": "TransitionInDays", "name_underscore": "transition_in_days"}], "mixins": [], "ruby_class_name": "S3LifecycleRuleTransition", "ruby_class_name_underscore": "s3_lifecycle_rule_transition", "ruby_comment_name": "Amazon_S3_Lifecycle_Rule_Transition", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "Amazon_S3_Lifecycle_Rule_Transition",
+    "ruby_class_name": "S3LifecycleRuleTransition",
+    "ruby_class_name_underscore": "s3_lifecycle_rule_transition",
+    "ruby_comment_name": "Amazon_S3_Lifecycle_Rule_Transition",
+    "topic_title": "Amazon S3 Lifecycle Rule\n      Transition",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-lifecycleconfig-rule-transition.html",
+    "variables": [
+        {
+            "name": "StorageClass",
+            "name_underscore": "storage_class",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "TransitionDate",
+            "name_underscore": "transition_date",
+            "required": "Conditional",
+            "type": "String"
+        },
+        {
+            "name": "TransitionInDays",
+            "name_underscore": "transition_in_days",
+            "required": "Conditional",
+            "type": "Integer"
+        }
+    ]
+}

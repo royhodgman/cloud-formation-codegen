@@ -1,1 +1,44 @@
-{"resource_name": "AWS_RDS_OptionGroup", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-optiongroup.html", "topic_title": "AWS::RDS::OptionGroup", "variables": [{"required": "Yes", "type": "String", "name": "EngineName", "name_underscore": "engine_name"}, {"required": "Yes", "type": "String", "name": "MajorEngineVersion", "name_underscore": "major_engine_version"}, {"required": "Yes", "type": "String", "name": "OptionGroupDescription", "name_underscore": "option_group_description"}, {"required": "Yes", "type": "Amazon RDS OptionGroup\n    OptionConfigurations", "name": "OptionConfigurations", "name_underscore": "option_configurations"}, {"required": "No", "type": "AWS CloudFormation Resource Tags", "name": "Tags", "name_underscore": "tags"}], "mixins": ["Taggable"], "ruby_class_name": "RDSOptionGroup", "ruby_class_name_underscore": "rds_optiongroup", "ruby_comment_name": "AWS_RDS_OptionGroup", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [
+        "Taggable"
+    ],
+    "resource_name": "AWS_RDS_OptionGroup",
+    "ruby_class_name": "RDSOptionGroup",
+    "ruby_class_name_underscore": "rds_optiongroup",
+    "ruby_comment_name": "AWS_RDS_OptionGroup",
+    "topic_title": "AWS::RDS::OptionGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-optiongroup.html",
+    "variables": [
+        {
+            "name": "EngineName",
+            "name_underscore": "engine_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "MajorEngineVersion",
+            "name_underscore": "major_engine_version",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "OptionGroupDescription",
+            "name_underscore": "option_group_description",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "OptionConfigurations",
+            "name_underscore": "option_configurations",
+            "required": "Yes",
+            "type": "Amazon RDS OptionGroup\n    OptionConfigurations"
+        },
+        {
+            "name": "Tags",
+            "name_underscore": "tags",
+            "required": "No",
+            "type": "AWS CloudFormation Resource Tags"
+        }
+    ]
+}

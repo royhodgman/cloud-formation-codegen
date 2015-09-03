@@ -1,1 +1,42 @@
-{"resource_name": "AWS_CloudFormation_AutoScaling_EBS_Block_Device_Property_Type", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig-blockdev-template.html", "topic_title": "AWS CloudFormation AutoScaling EBS Block Device Property Type", "variables": [{"required": "No", "type": "Boolean", "name": "DeleteOnTermination", "name_underscore": "delete_on_termination"}, {"required": "No", "type": "Integer.", "name": "Iops", "name_underscore": "iops"}, {"required": "Conditional If you specify both SnapshotId and\n                     VolumeSize, VolumeSize must be equal or greater than\n                  the size of the snapshot.", "type": "String", "name": "SnapshotId", "name_underscore": "snapshot_id"}, {"required": "Conditional If you specify both SnapshotId and\n                     VolumeSize, VolumeSize must be equal or greater than\n                  the size of the snapshot.", "type": "Integer.", "name": "VolumeSize", "name_underscore": "volume_size"}, {"required": "No", "type": "String", "name": "VolumeType", "name_underscore": "volume_type"}], "mixins": [], "ruby_class_name": "CloudFormationAutoScalingEBSBlockDevicePropertyType", "ruby_class_name_underscore": "cloudformation_autoscaling_ebs_block_device_property_type", "ruby_comment_name": "AWS_CloudFormation_AutoScaling_EBS_Block_Device_Property_Type", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_CloudFormation_AutoScaling_EBS_Block_Device_Property_Type",
+    "ruby_class_name": "CloudFormationAutoScalingEBSBlockDevicePropertyType",
+    "ruby_class_name_underscore": "cloudformation_autoscaling_ebs_block_device_property_type",
+    "ruby_comment_name": "AWS_CloudFormation_AutoScaling_EBS_Block_Device_Property_Type",
+    "topic_title": "AWS CloudFormation AutoScaling EBS Block Device Property Type",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig-blockdev-template.html",
+    "variables": [
+        {
+            "name": "DeleteOnTermination",
+            "name_underscore": "delete_on_termination",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "Iops",
+            "name_underscore": "iops",
+            "required": "No",
+            "type": "Integer."
+        },
+        {
+            "name": "SnapshotId",
+            "name_underscore": "snapshot_id",
+            "required": "Conditional If you specify both SnapshotId and\n                     VolumeSize, VolumeSize must be equal or greater than\n                  the size of the snapshot.",
+            "type": "String"
+        },
+        {
+            "name": "VolumeSize",
+            "name_underscore": "volume_size",
+            "required": "Conditional If you specify both SnapshotId and\n                     VolumeSize, VolumeSize must be equal or greater than\n                  the size of the snapshot.",
+            "type": "Integer."
+        },
+        {
+            "name": "VolumeType",
+            "name_underscore": "volume_type",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

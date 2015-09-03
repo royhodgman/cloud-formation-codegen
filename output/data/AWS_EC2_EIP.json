@@ -1,1 +1,30 @@
-{"resource_name": "AWS_EC2_EIP", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip.html", "topic_title": "AWS::EC2::EIP", "variables": [{"required": "No", "type": "String", "name": "InstanceId", "name_underscore": "instance_id"}, {"required": "Conditional. Required when allocating an address to a VPC", "type": "String", "name": "Domain", "name_underscore": "domain"}, {"required": "No", "type": "String", "name": "AllocationId", "name_underscore": "allocation_id"}], "mixins": [], "ruby_class_name": "EC2EIP", "ruby_class_name_underscore": "ec2_eip", "ruby_comment_name": "AWS_EC2_EIP", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_EC2_EIP",
+    "ruby_class_name": "EC2EIP",
+    "ruby_class_name_underscore": "ec2_eip",
+    "ruby_comment_name": "AWS_EC2_EIP",
+    "topic_title": "AWS::EC2::EIP",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip.html",
+    "variables": [
+        {
+            "name": "InstanceId",
+            "name_underscore": "instance_id",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "Domain",
+            "name_underscore": "domain",
+            "required": "Conditional. Required when allocating an address to a VPC",
+            "type": "String"
+        },
+        {
+            "name": "AllocationId",
+            "name_underscore": "allocation_id",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

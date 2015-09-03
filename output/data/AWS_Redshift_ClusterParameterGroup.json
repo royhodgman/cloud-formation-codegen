@@ -1,1 +1,30 @@
-{"resource_name": "AWS_Redshift_ClusterParameterGroup", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html", "topic_title": "AWS::Redshift::ClusterParameterGroup", "variables": [{"required": "Yes", "type": "String", "name": "Description", "name_underscore": "description"}, {"required": "Yes", "type": "String", "name": "ParameterGroupFamily", "name_underscore": "parameter_group_family"}, {"required": "No", "type": "Amazon Redshift Parameter\n      Type", "name": "Parameters", "name_underscore": "parameters"}], "mixins": [], "ruby_class_name": "RedshiftClusterParameterGroup", "ruby_class_name_underscore": "redshift_clusterparametergroup", "ruby_comment_name": "AWS_Redshift_ClusterParameterGroup", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_Redshift_ClusterParameterGroup",
+    "ruby_class_name": "RedshiftClusterParameterGroup",
+    "ruby_class_name_underscore": "redshift_clusterparametergroup",
+    "ruby_comment_name": "AWS_Redshift_ClusterParameterGroup",
+    "topic_title": "AWS::Redshift::ClusterParameterGroup",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html",
+    "variables": [
+        {
+            "name": "Description",
+            "name_underscore": "description",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "ParameterGroupFamily",
+            "name_underscore": "parameter_group_family",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Parameters",
+            "name_underscore": "parameters",
+            "required": "No",
+            "type": "Amazon Redshift Parameter\n      Type"
+        }
+    ]
+}

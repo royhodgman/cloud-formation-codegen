@@ -1,1 +1,42 @@
-{"resource_name": "AWS_CloudTrail_Trail", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html", "topic_title": "AWS::CloudTrail::Trail", "variables": [{"required": "No", "type": "Boolean", "name": "IncludeGlobalServiceEvents", "name_underscore": "include_global_service_events"}, {"required": "Yes", "type": "Boolean", "name": "IsLogging", "name_underscore": "is_logging"}, {"required": "Yes", "type": "String", "name": "S3BucketName", "name_underscore": "s3_bucket_name"}, {"required": "No", "type": "String", "name": "S3KeyPrefix", "name_underscore": "s3_key_prefix"}, {"required": "No", "type": "String", "name": "SnsTopicName", "name_underscore": "sns_topic_name"}], "mixins": [], "ruby_class_name": "CloudTrailTrail", "ruby_class_name_underscore": "cloudtrail_trail", "ruby_comment_name": "AWS_CloudTrail_Trail", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_CloudTrail_Trail",
+    "ruby_class_name": "CloudTrailTrail",
+    "ruby_class_name_underscore": "cloudtrail_trail",
+    "ruby_comment_name": "AWS_CloudTrail_Trail",
+    "topic_title": "AWS::CloudTrail::Trail",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html",
+    "variables": [
+        {
+            "name": "IncludeGlobalServiceEvents",
+            "name_underscore": "include_global_service_events",
+            "required": "No",
+            "type": "Boolean"
+        },
+        {
+            "name": "IsLogging",
+            "name_underscore": "is_logging",
+            "required": "Yes",
+            "type": "Boolean"
+        },
+        {
+            "name": "S3BucketName",
+            "name_underscore": "s3_bucket_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "S3KeyPrefix",
+            "name_underscore": "s3_key_prefix",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "SnsTopicName",
+            "name_underscore": "sns_topic_name",
+            "required": "No",
+            "type": "String"
+        }
+    ]
+}

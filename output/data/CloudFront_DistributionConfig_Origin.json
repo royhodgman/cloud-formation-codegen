@@ -1,1 +1,42 @@
-{"resource_name": "CloudFront_DistributionConfig_Origin", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-origin.html", "topic_title": "CloudFront DistributionConfig Origin", "variables": [{"required": "Conditional. You cannot use CustomOriginConfig and\n                     S3OriginConfig in the same distribution, but you\n                     must specify one or the other.", "type": "CustomOrigin\n                  type", "name": "CustomOriginConfig", "name_underscore": "custom_origin_config"}, {"required": "Yes", "type": "String", "name": "DomainName", "name_underscore": "domain_name"}, {"required": "Yes", "type": "String", "name": "Id", "name_underscore": "id"}, {"required": "No", "type": "String", "name": "OriginPath", "name_underscore": "origin_path"}, {"required": "Conditional. You cannot use S3OriginConfig and\n                     CustomOriginConfig in the same distribution, but you\n                     must specify one or the other.", "type": "S3Origin\n                  type", "name": "S3OriginConfig", "name_underscore": "s3_origin_config"}], "mixins": [], "ruby_class_name": "DistributionConfigOrigin", "ruby_class_name_underscore": "distributionconfig_origin", "ruby_comment_name": "CloudFront_DistributionConfig_Origin", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "CloudFront_DistributionConfig_Origin",
+    "ruby_class_name": "DistributionConfigOrigin",
+    "ruby_class_name_underscore": "distributionconfig_origin",
+    "ruby_comment_name": "CloudFront_DistributionConfig_Origin",
+    "topic_title": "CloudFront DistributionConfig Origin",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cloudfront-origin.html",
+    "variables": [
+        {
+            "name": "CustomOriginConfig",
+            "name_underscore": "custom_origin_config",
+            "required": "Conditional. You cannot use CustomOriginConfig and\n                     S3OriginConfig in the same distribution, but you\n                     must specify one or the other.",
+            "type": "CustomOrigin\n                  type"
+        },
+        {
+            "name": "DomainName",
+            "name_underscore": "domain_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "Id",
+            "name_underscore": "id",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "OriginPath",
+            "name_underscore": "origin_path",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "S3OriginConfig",
+            "name_underscore": "s3_origin_config",
+            "required": "Conditional. You cannot use S3OriginConfig and\n                     CustomOriginConfig in the same distribution, but you\n                     must specify one or the other.",
+            "type": "S3Origin\n                  type"
+        }
+    ]
+}

@@ -1,1 +1,54 @@
-{"resource_name": "AWS_AutoScaling_LifecycleHook", "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html", "topic_title": "AWS::AutoScaling::LifecycleHook", "variables": [{"required": "Yes", "type": "String", "name": "AutoScalingGroupName", "name_underscore": "auto_scaling_group_name"}, {"required": "No", "type": "String", "name": "DefaultResult", "name_underscore": "default_result"}, {"required": "No", "type": "Integer", "name": "HeartbeatTimeout", "name_underscore": "heartbeat_timeout"}, {"required": "Yes", "type": "String", "name": "LifecycleTransition", "name_underscore": "lifecycle_transition"}, {"required": "No", "type": "String", "name": "NotificationMetadata", "name_underscore": "notification_metadata"}, {"required": "Yes", "type": "String", "name": "NotificationTargetARN", "name_underscore": "notification_target_arn"}, {"required": "Yes", "type": "String", "name": "RoleARN", "name_underscore": "role_arn"}], "mixins": [], "ruby_class_name": "AutoScalingLifecycleHook", "ruby_class_name_underscore": "autoscaling_lifecyclehook", "ruby_comment_name": "AWS_AutoScaling_LifecycleHook", "list_variables": []}
+{
+    "list_variables": [],
+    "mixins": [],
+    "resource_name": "AWS_AutoScaling_LifecycleHook",
+    "ruby_class_name": "AutoScalingLifecycleHook",
+    "ruby_class_name_underscore": "autoscaling_lifecyclehook",
+    "ruby_comment_name": "AWS_AutoScaling_LifecycleHook",
+    "topic_title": "AWS::AutoScaling::LifecycleHook",
+    "url": "http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-as-lifecyclehook.html",
+    "variables": [
+        {
+            "name": "AutoScalingGroupName",
+            "name_underscore": "auto_scaling_group_name",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "DefaultResult",
+            "name_underscore": "default_result",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "HeartbeatTimeout",
+            "name_underscore": "heartbeat_timeout",
+            "required": "No",
+            "type": "Integer"
+        },
+        {
+            "name": "LifecycleTransition",
+            "name_underscore": "lifecycle_transition",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "NotificationMetadata",
+            "name_underscore": "notification_metadata",
+            "required": "No",
+            "type": "String"
+        },
+        {
+            "name": "NotificationTargetARN",
+            "name_underscore": "notification_target_arn",
+            "required": "Yes",
+            "type": "String"
+        },
+        {
+            "name": "RoleARN",
+            "name_underscore": "role_arn",
+            "required": "Yes",
+            "type": "String"
+        }
+    ]
+}
