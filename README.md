@@ -37,12 +37,12 @@ To avoid this problem, use [virtualenv](https://virtualenv.pypa.io/):
 
 ```bash
 VIRTUAL_ENV_DIR=<PATH_TO_VIRTUAL_ENV_DIR_TO_BE_CREATED>
-viralenv $VIRUAL_ENV_DIR
+virtualenv $VIRTUAL_ENV_DIR
 git clone https://github.com/royhodgman/cloud-formation-codegen.git
 cd cloud-formation-codegen
-source $VIRUAL_ENV_DIR/bin/activate
+source $VIRTUAL_ENV_DIR/bin/activate
 pip install -r requirements.txt
-$VIRUAL_ENV_DIR/bin/scrapy crawl aws-cf
+$VIRTUAL_ENV_DIR/bin/scrapy crawl aws-cf
 ```
 
 ## generated files
