@@ -5,7 +5,6 @@
 * inflection
 * pystache
 * scrapy
-* urlparse
 
 ## to run
 
